@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../assets/scripts/util/assets/scripts/util/NetConfig.js"],"names":["module","exports","host"],"mappings":";;;;;;AAAA;;;AAGAA,OAAOC,OAAP,GAAe;AACXC,QAAK;AADM,CAAf","file":"NetConfig.js","sourceRoot":"../../../../../assets/scripts/util","sourcesContent":["/**\n * 当前的网络配置\n */\nmodule.exports={\n    host:\"ws://192.168.2.35:8002/\"\n};"]}

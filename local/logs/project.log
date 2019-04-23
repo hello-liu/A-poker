@@ -1,0 +1,226 @@
+2019-04-23T11:51:38.529Z - normal: Load ~/.CocosCreator/settings.json
+2019-04-23T11:51:38.591Z - normal: Initializing Asset Database
+2019-04-23T11:51:38.594Z - normal: checking language setting...
+2019-04-23T11:51:38.594Z - normal: Language: zh
+2019-04-23T11:51:39.430Z - success: preview server running at http://localhost:7456
+2019-04-23T11:51:39.471Z - success: protocol editor-framework registered
+2019-04-23T11:51:39.472Z - success: protocol app registered
+2019-04-23T11:51:39.472Z - success: protocol theme registered
+2019-04-23T11:51:39.472Z - success: protocol packages registered
+2019-04-23T11:51:39.472Z - success: protocol uuid registerred
+2019-04-23T11:51:39.472Z - success: protocol db registerred
+2019-04-23T11:51:39.472Z - success: protocol thumbnail registerred
+2019-04-23T11:51:39.472Z - success: protocol unpack registerred
+2019-04-23T11:51:39.472Z - success: protocol disable-commonjs registerred
+2019-04-23T11:51:39.703Z - normal: connected!
+2019-04-23T11:51:39.705Z - normal: Check project /Users/macbook/NewProject
+2019-04-23T11:51:39.707Z - normal: Initializing project /Users/macbook/NewProject
+2019-04-23T11:51:40.116Z - normal: Initializing Cocos2d
+2019-04-23T11:51:40.985Z - normal: Initializing engine extends
+2019-04-23T11:51:41.049Z - success: asset-db-debugger loaded
+2019-04-23T11:51:41.051Z - success: baidu-adapter loaded
+2019-04-23T11:51:41.052Z - success: color-picker loaded
+2019-04-23T11:51:41.155Z - success: fb-audience-network loaded
+2019-04-23T11:51:41.214Z - success: fb-live-stream loaded
+2019-04-23T11:51:41.218Z - success: google-play-instant loaded
+2019-04-23T11:51:41.224Z - success: huawei-runtime loaded
+2019-04-23T11:51:41.225Z - success: jsb-adapter loaded
+2019-04-23T11:51:41.230Z - success: oppo-runtime loaded
+2019-04-23T11:51:41.243Z - success: package-manager loaded
+2019-04-23T11:51:41.398Z - success: qqplay-adapter loaded
+2019-04-23T11:51:41.400Z - success: runtime-dev-tools loaded
+2019-04-23T11:51:41.413Z - success: sdkbox loaded
+2019-04-23T11:51:41.426Z - success: tester loaded
+2019-04-23T11:51:41.439Z - success: ui-grid loaded
+2019-04-23T11:51:41.450Z - success: ui-kit-preview-extra loaded
+2019-04-23T11:51:41.460Z - success: ui-kit-preview loaded
+2019-04-23T11:51:41.471Z - success: ui-kit loaded
+2019-04-23T11:51:41.481Z - success: ui-tree loaded
+2019-04-23T11:51:41.486Z - success: vivo-runtime loaded
+2019-04-23T11:51:41.487Z - success: weapp-adapter loaded
+2019-04-23T11:51:41.537Z - success: assets loaded
+2019-04-23T11:51:41.548Z - success: builder loaded
+2019-04-23T11:51:41.868Z - success: cocos-services loaded
+2019-04-23T11:51:41.880Z - success: console loaded
+2019-04-23T11:51:41.915Z - success: fb-instant-games loaded
+2019-04-23T11:51:41.918Z - success: google-instant-games loaded
+2019-04-23T11:51:41.933Z - success: hierarchy loaded
+2019-04-23T11:51:41.944Z - success: inspector loaded
+2019-04-23T11:51:41.946Z - success: keystore loaded
+2019-04-23T11:51:41.959Z - success: node-library loaded
+2019-04-23T11:51:41.961Z - success: package-asset loaded
+2019-04-23T11:51:41.963Z - success: preferences loaded
+2019-04-23T11:51:41.974Z - success: project-exporter loaded
+2019-04-23T11:51:41.987Z - success: project-importer loaded
+2019-04-23T11:51:41.999Z - success: project-settings loaded
+2019-04-23T11:51:42.011Z - success: scene loaded
+2019-04-23T11:51:42.014Z - success: simulator-debugger loaded
+2019-04-23T11:51:42.016Z - success: sprite-editor loaded
+2019-04-23T11:51:42.027Z - success: store loaded
+2019-04-23T11:51:42.041Z - success: timeline loaded
+2019-04-23T11:51:42.726Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/102.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/102.png. Assigning a new uuid.
+2019-04-23T11:51:42.727Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/102.png/102 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/102.png/102. Assigning a new uuid.
+2019-04-23T11:51:42.728Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/103.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/103.png. Assigning a new uuid.
+2019-04-23T11:51:42.728Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/103.png/103 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/103.png/103. Assigning a new uuid.
+2019-04-23T11:51:42.728Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/104.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/104.png. Assigning a new uuid.
+2019-04-23T11:51:42.729Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/104.png/104 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/104.png/104. Assigning a new uuid.
+2019-04-23T11:51:42.729Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/105.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/105.png. Assigning a new uuid.
+2019-04-23T11:51:42.729Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/105.png/105 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/105.png/105. Assigning a new uuid.
+2019-04-23T11:51:42.730Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/106.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/106.png. Assigning a new uuid.
+2019-04-23T11:51:42.730Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/106.png/106 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/106.png/106. Assigning a new uuid.
+2019-04-23T11:51:42.730Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/107.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/107.png. Assigning a new uuid.
+2019-04-23T11:51:42.730Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/107.png/107 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/107.png/107. Assigning a new uuid.
+2019-04-23T11:51:42.731Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/108.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/108.png. Assigning a new uuid.
+2019-04-23T11:51:42.731Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/108.png/108 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/108.png/108. Assigning a new uuid.
+2019-04-23T11:51:42.731Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/109.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/109.png. Assigning a new uuid.
+2019-04-23T11:51:42.732Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/109.png/109 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/109.png/109. Assigning a new uuid.
+2019-04-23T11:51:42.732Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/110.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/110.png. Assigning a new uuid.
+2019-04-23T11:51:42.733Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/110.png/110 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/110.png/110. Assigning a new uuid.
+2019-04-23T11:51:42.733Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/111.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/111.png. Assigning a new uuid.
+2019-04-23T11:51:42.733Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/111.png/111 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/111.png/111. Assigning a new uuid.
+2019-04-23T11:51:42.733Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/112.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/112.png. Assigning a new uuid.
+2019-04-23T11:51:42.733Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/112.png/112 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/112.png/112. Assigning a new uuid.
+2019-04-23T11:51:42.734Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/113.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/113.png. Assigning a new uuid.
+2019-04-23T11:51:42.734Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/113.png/113 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/113.png/113. Assigning a new uuid.
+2019-04-23T11:51:42.734Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/114.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/114.png. Assigning a new uuid.
+2019-04-23T11:51:42.734Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/114.png/114 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/114.png/114. Assigning a new uuid.
+2019-04-23T11:51:42.734Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/202.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/202.png. Assigning a new uuid.
+2019-04-23T11:51:42.734Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/202.png/202 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/202.png/202. Assigning a new uuid.
+2019-04-23T11:51:42.734Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/203.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/203.png. Assigning a new uuid.
+2019-04-23T11:51:42.735Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/203.png/203 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/203.png/203. Assigning a new uuid.
+2019-04-23T11:51:42.735Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/204.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/204.png. Assigning a new uuid.
+2019-04-23T11:51:42.735Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/204.png/204 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/204.png/204. Assigning a new uuid.
+2019-04-23T11:51:42.735Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/205.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/205.png. Assigning a new uuid.
+2019-04-23T11:51:42.735Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/205.png/205 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/205.png/205. Assigning a new uuid.
+2019-04-23T11:51:42.735Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/206.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/206.png. Assigning a new uuid.
+2019-04-23T11:51:42.735Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/206.png/206 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/206.png/206. Assigning a new uuid.
+2019-04-23T11:51:42.735Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/207.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/207.png. Assigning a new uuid.
+2019-04-23T11:51:42.735Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/207.png/207 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/207.png/207. Assigning a new uuid.
+2019-04-23T11:51:42.736Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/208.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/208.png. Assigning a new uuid.
+2019-04-23T11:51:42.736Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/208.png/208 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/208.png/208. Assigning a new uuid.
+2019-04-23T11:51:42.736Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/209.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/209.png. Assigning a new uuid.
+2019-04-23T11:51:42.736Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/209.png/209 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/209.png/209. Assigning a new uuid.
+2019-04-23T11:51:42.736Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/210.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/210.png. Assigning a new uuid.
+2019-04-23T11:51:42.736Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/210.png/210 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/210.png/210. Assigning a new uuid.
+2019-04-23T11:51:42.736Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/211.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/211.png. Assigning a new uuid.
+2019-04-23T11:51:42.736Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/211.png/211 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/211.png/211. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/212.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/212.png. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/212.png/212 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/212.png/212. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/213.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/213.png. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/213.png/213 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/213.png/213. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/214.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/214.png. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/214.png/214 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/214.png/214. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/302.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/302.png. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/302.png/302 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/302.png/302. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/303.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/303.png. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/303.png/303 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/303.png/303. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/304.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/304.png. Assigning a new uuid.
+2019-04-23T11:51:42.737Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/304.png/304 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/304.png/304. Assigning a new uuid.
+2019-04-23T11:51:42.738Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/305.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/305.png. Assigning a new uuid.
+2019-04-23T11:51:42.738Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/305.png/305 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/305.png/305. Assigning a new uuid.
+2019-04-23T11:51:42.738Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/306.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/306.png. Assigning a new uuid.
+2019-04-23T11:51:42.738Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/306.png/306 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/306.png/306. Assigning a new uuid.
+2019-04-23T11:51:42.738Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/307.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/307.png. Assigning a new uuid.
+2019-04-23T11:51:42.738Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/307.png/307 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/307.png/307. Assigning a new uuid.
+2019-04-23T11:51:42.739Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/308.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/308.png. Assigning a new uuid.
+2019-04-23T11:51:42.739Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/308.png/308 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/308.png/308. Assigning a new uuid.
+2019-04-23T11:51:42.739Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/309.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/309.png. Assigning a new uuid.
+2019-04-23T11:51:42.739Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/309.png/309 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/309.png/309. Assigning a new uuid.
+2019-04-23T11:51:42.739Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/310.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/310.png. Assigning a new uuid.
+2019-04-23T11:51:42.739Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/310.png/310 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/310.png/310. Assigning a new uuid.
+2019-04-23T11:51:42.740Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/311.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/311.png. Assigning a new uuid.
+2019-04-23T11:51:42.741Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/311.png/311 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/311.png/311. Assigning a new uuid.
+2019-04-23T11:51:42.742Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/312.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/312.png. Assigning a new uuid.
+2019-04-23T11:51:42.742Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/312.png/312 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/312.png/312. Assigning a new uuid.
+2019-04-23T11:51:42.742Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/313.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/313.png. Assigning a new uuid.
+2019-04-23T11:51:42.742Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/313.png/313 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/313.png/313. Assigning a new uuid.
+2019-04-23T11:51:42.743Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/314.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/314.png. Assigning a new uuid.
+2019-04-23T11:51:42.743Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/314.png/314 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/314.png/314. Assigning a new uuid.
+2019-04-23T11:51:42.743Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/402.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/402.png. Assigning a new uuid.
+2019-04-23T11:51:42.743Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/402.png/402 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/402.png/402. Assigning a new uuid.
+2019-04-23T11:51:42.743Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/403.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/403.png. Assigning a new uuid.
+2019-04-23T11:51:42.743Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/403.png/403 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/403.png/403. Assigning a new uuid.
+2019-04-23T11:51:42.743Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/404.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/404.png. Assigning a new uuid.
+2019-04-23T11:51:42.743Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/404.png/404 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/404.png/404. Assigning a new uuid.
+2019-04-23T11:51:42.743Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/405.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/405.png. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/405.png/405 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/405.png/405. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/406.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/406.png. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/406.png/406 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/406.png/406. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/407.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/407.png. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/407.png/407 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/407.png/407. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/408.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/408.png. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/408.png/408 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/408.png/408. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/409.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/409.png. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/409.png/409 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/409.png/409. Assigning a new uuid.
+2019-04-23T11:51:42.744Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/410.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/410.png. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/410.png/410 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/410.png/410. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/411.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/411.png. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/411.png/411 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/411.png/411. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/412.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/412.png. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/412.png/412 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/412.png/412. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/413.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/413.png. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/413.png/413 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/413.png/413. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/414.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/414.png. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/414.png/414 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/414.png/414. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/501.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/501.png. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/501.png/501 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/501.png/501. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/502.png is already in used by /Users/macbook/NewProject/assets/imgs/pokers/502.png. Assigning a new uuid.
+2019-04-23T11:51:42.745Z - failed: [db-task][init] uuid collision, the uuid for /Users/macbook/NewProject/assets/resources/pokers/502.png/502 is already in used by /Users/macbook/NewProject/assets/imgs/pokers/502.png/502. Assigning a new uuid.
+2019-04-23T11:51:42.975Z - failed: [db-task][init] path collision, the path for 9f4ec650-cfbb-46fe-b8c0-c1170c7f872f is already in used by 9f4ec650-cfbb-46fe-b8c0-c1170c7f872f. Assigning a new path.
+2019-04-23T11:51:42.978Z - failed: [db-task][init] path collision, the path for da3e59d5-503b-42b3-bc81-f95223091e77 is already in used by da3e59d5-503b-42b3-bc81-f95223091e77. Assigning a new path.
+2019-04-23T11:51:43.005Z - failed: [db-task][init] path collision, the path for fb21ca72-7e17-4329-9377-f1d8fd2d7ccd is already in used by fb21ca72-7e17-4329-9377-f1d8fd2d7ccd. Assigning a new path.
+2019-04-23T11:51:43.008Z - failed: [db-task][init] path collision, the path for 2b5683dc-cadb-44b7-acde-43c4a8dd7e4d is already in used by 2b5683dc-cadb-44b7-acde-43c4a8dd7e4d. Assigning a new path.
+2019-04-23T11:51:43.039Z - failed: [db-task][init] path collision, the path for ddaab676-7b8d-4f2e-b98e-6047c6f31a19 is already in used by ddaab676-7b8d-4f2e-b98e-6047c6f31a19. Assigning a new path.
+2019-04-23T11:51:43.040Z - failed: [db-task][init] path collision, the path for a8bfc46c-75d4-4041-823a-6c65dbb2bee5 is already in used by a8bfc46c-75d4-4041-823a-6c65dbb2bee5. Assigning a new path.
+2019-04-23T11:51:43.075Z - failed: [db-task][init] path collision, the path for 86d0b7bd-8a9f-40b1-a3b2-3fc3b0b9c004 is already in used by 86d0b7bd-8a9f-40b1-a3b2-3fc3b0b9c004. Assigning a new path.
+2019-04-23T11:51:43.076Z - failed: [db-task][init] path collision, the path for fedd615d-87a6-45f7-b218-d119d0e6570c is already in used by fedd615d-87a6-45f7-b218-d119d0e6570c. Assigning a new path.
+2019-04-23T11:51:43.102Z - failed: [db-task][init] path collision, the path for a95ba098-4bed-437a-8b48-0f8108d5b4a4 is already in used by a95ba098-4bed-437a-8b48-0f8108d5b4a4. Assigning a new path.
+2019-04-23T11:51:43.104Z - failed: [db-task][init] path collision, the path for 0d3538d7-00cc-46f8-b147-0f6021f6fd1e is already in used by 0d3538d7-00cc-46f8-b147-0f6021f6fd1e. Assigning a new path.
+2019-04-23T11:51:43.133Z - failed: [db-task][init] path collision, the path for f8e802f3-3c60-4229-8ba7-28e50354e927 is already in used by f8e802f3-3c60-4229-8ba7-28e50354e927. Assigning a new path.
+2019-04-23T11:51:43.135Z - failed: [db-task][init] path collision, the path for 3daa2d81-6683-4804-8fe4-308f79c8d10e is already in used by 3daa2d81-6683-4804-8fe4-308f79c8d10e. Assigning a new path.
+2019-04-23T11:51:43.165Z - failed: [db-task][init] path collision, the path for abb5cb39-f668-4ae9-9da8-9d84719d6964 is already in used by abb5cb39-f668-4ae9-9da8-9d84719d6964. Assigning a new path.
+2019-04-23T11:51:43.166Z - failed: [db-task][init] path collision, the path for 557e06b6-49d7-4770-abf4-7e4adde53f20 is already in used by 557e06b6-49d7-4770-abf4-7e4adde53f20. Assigning a new path.
+2019-04-23T11:51:43.193Z - failed: [db-task][init] path collision, the path for 470faeb8-2223-40ed-8948-06f6d5348e10 is already in used by 470faeb8-2223-40ed-8948-06f6d5348e10. Assigning a new path.
+2019-04-23T11:51:43.195Z - failed: [db-task][init] path collision, the path for b985a7a1-a87d-49a4-a1dc-5b0a6a1c28f4 is already in used by b985a7a1-a87d-49a4-a1dc-5b0a6a1c28f4. Assigning a new path.
+2019-04-23T11:51:43.220Z - failed: [db-task][init] path collision, the path for 20102817-59f1-4ba0-9976-26f077652ace is already in used by 20102817-59f1-4ba0-9976-26f077652ace. Assigning a new path.
+2019-04-23T11:51:43.222Z - failed: [db-task][init] path collision, the path for 2f688290-e320-4d6a-acb9-a15329382077 is already in used by 2f688290-e320-4d6a-acb9-a15329382077. Assigning a new path.
+2019-04-23T11:51:43.248Z - failed: [db-task][init] path collision, the path for f6567b57-7239-42d6-be1e-4ea8e9582230 is already in used by f6567b57-7239-42d6-be1e-4ea8e9582230. Assigning a new path.
+2019-04-23T11:51:43.250Z - failed: [db-task][init] path collision, the path for c915a9d8-e3dc-4a7b-9d39-7741929b04db is already in used by c915a9d8-e3dc-4a7b-9d39-7741929b04db. Assigning a new path.
+2019-04-23T11:51:43.277Z - failed: [db-task][init] path collision, the path for c23cfe05-8ccf-4c46-a2a3-f3f07142564e is already in used by c23cfe05-8ccf-4c46-a2a3-f3f07142564e. Assigning a new path.
+2019-04-23T11:51:43.278Z - failed: [db-task][init] path collision, the path for 99672d13-fe58-4c71-9e70-44a02283d24a is already in used by 99672d13-fe58-4c71-9e70-44a02283d24a. Assigning a new path.
+2019-04-23T11:51:43.305Z - failed: [db-task][init] path collision, the path for 9b28d7c4-3f1a-43ac-9afa-6f74cc1638b2 is already in used by 9b28d7c4-3f1a-43ac-9afa-6f74cc1638b2. Assigning a new path.
+2019-04-23T11:51:43.306Z - failed: [db-task][init] path collision, the path for 2e0c548f-49a3-4265-9e88-f7e31b65ba26 is already in used by 2e0c548f-49a3-4265-9e88-f7e31b65ba26. Assigning a new path.
+2019-04-23T11:51:43.334Z - failed: [db-task][init] path collision, the path for eefc037d-3b2f-4d2b-8bfc-f81cb077355f is already in used by eefc037d-3b2f-4d2b-8bfc-f81cb077355f. Assigning a new path.
+2019-04-23T11:51:43.336Z - failed: [db-task][init] path collision, the path for 08bad1cb-b43c-4aee-b54d-8dba094ca803 is already in used by 08bad1cb-b43c-4aee-b54d-8dba094ca803. Assigning a new path.
+2019-04-23T11:51:43.361Z - failed: [db-task][init] path collision, the path for e44e3284-9261-4586-a26a-c37d305c6b0d is already in used by e44e3284-9261-4586-a26a-c37d305c6b0d. Assigning a new path.
+2019-04-23T11:51:43.362Z - failed: [db-task][init] path collision, the path for 599d038b-62a9-4f61-aef7-d9b51ca86e67 is already in used by 599d038b-62a9-4f61-aef7-d9b51ca86e67. Assigning a new path.
+2019-04-23T11:51:43.388Z - failed: [db-task][init] path collision, the path for 695fe38b-03ba-4074-9e96-5ec9f5821576 is already in used by 695fe38b-03ba-4074-9e96-5ec9f5821576. Assigning a new path.
+2019-04-23T11:51:43.389Z - failed: [db-task][init] path collision, the path for 059f4414-aa42-418d-9797-3831d9a3e636 is already in used by 059f4414-aa42-418d-9797-3831d9a3e636. Assigning a new path.
+2019-04-23T11:51:43.417Z - failed: [db-task][init] path collision, the path for 981c5f88-67c4-4911-ad31-c562a3c8e851 is already in used by 981c5f88-67c4-4911-ad31-c562a3c8e851. Assigning a new path.
+2019-04-23T11:51:43.419Z - failed: [db-task][init] path collision, the path for 19fca838-bdc5-4fba-b56c-acb385d79cf7 is already in used by 19fca838-bdc5-4fba-b56c-acb385d79cf7. Assigning a new path.
+2019-04-23T11:51:43.445Z - failed: [db-task][init] path collision, the path for 538d12f8-6421-427b-b228-b5f9f877f7ed is already in used by 538d12f8-6421-427b-b228-b5f9f877f7ed. Assigning a new path.
+2019-04-23T11:51:43.447Z - failed: [db-task][init] path collision, the path for adab3453-8643-495f-b7c6-697e4082e960 is already in used by adab3453-8643-495f-b7c6-697e4082e960. Assigning a new path.
+2019-04-23T11:51:43.473Z - failed: [db-task][init] path collision, the path for 3c8eeb45-c2fd-45bd-9483-9f1cc0a7f569 is already in used by 3c8eeb45-c2fd-45bd-9483-9f1cc0a7f569. Assigning a new path.
+2019-04-23T11:51:43.474Z - failed: [db-task][init] path collision, the path for 2d47bd73-4891-457e-95e8-45f86701288d is already in used by 2d47bd73-4891-457e-95e8-45f86701288d. Assigning a new path.
+2019-04-23T11:51:43.502Z - failed: [db-task][init] path collision, the path for a557bccc-827a-4f7e-af55-c74621930e2f is already in used by a557bccc-827a-4f7e-af55-c74621930e2f. Assigning a new path.
+2019-04-23T11:51:43.503Z - failed: [db-task][init] path collision, the path for d44a8fed-a49e-468e-9d86-5cfb1dd10039 is already in used by d44a8fed-a49e-468e-9d86-5cfb1dd10039. Assigning a new path.
+2019-04-23T11:51:43.528Z - failed: [db-task][init] path collision, the path for a3709c8d-d006-4da0-9ee9-dfbbae4e8661 is already in used by a3709c8d-d006-4da0-9ee9-dfbbae4e8661. Assigning a new path.
+2019-04-23T11:51:43.529Z - failed: [db-task][init] path collision, the path for a09407e4-b613-4e95-8641-08796fcb24e9 is already in used by a09407e4-b613-4e95-8641-08796fcb24e9. Assigning a new path.
+2019-04-23T11:51:43.555Z - failed: [db-task][init] path collision, the path for 4d781293-53bd-4eed-8804-b348e1ffaa83 is already in used by 4d781293-53bd-4eed-8804-b348e1ffaa83. Assigning a new path.
+2019-04-23T11:51:43.557Z - failed: [db-task][init] path collision, the path for b1b16d12-4f39-459c-9f8e-bd3adb8628f2 is already in used by b1b16d12-4f39-459c-9f8e-bd3adb8628f2. Assigning a new path.
+2019-04-23T11:51:43.584Z - failed: [db-task][init] path collision, the path for 56b56ef3-116d-4600-8eba-d974a93c721f is already in used by 56b56ef3-116d-4600-8eba-d974a93c721f. Assigning a new path.
+2019-04-23T11:51:43.586Z - failed: [db-task][init] path collision, the path for 06615847-91c9-4ff7-b106-d701c998053e is already in used by 06615847-91c9-4ff7-b106-d701c998053e. Assigning a new path.
+2019-04-23T11:51:43.612Z - failed: [db-task][init] path collision, the path for a20cbdec-e667-4b21-b976-de758cbd51eb is already in used by a20cbdec-e667-4b21-b976-de758cbd51eb. Assigning a new path.
+2019-04-23T11:51:43.613Z - failed: [db-task][init] path collision, the path for 8ed8825b-4e60-4d99-86ba-764a7b47cfcf is already in used by 8ed8825b-4e60-4d99-86ba-764a7b47cfcf. Assigning a new path.
+2019-04-23T11:51:43.642Z - failed: [db-task][init] path collision, the path for c1fd12c6-597e-405c-b90a-d838ddb7dbc6 is already in used by c1fd12c6-597e-405c-b90a-d838ddb7dbc6. Assigning a new path.
+2019-04-23T11:51:43.643Z - failed: [db-task][init] path collision, the path for e6575c87-0f76-46ba-b428-076a985a9ba2 is already in used by e6575c87-0f76-46ba-b428-076a985a9ba2. Assigning a new path.
+2019-04-23T11:51:43.672Z - failed: [db-task][init] path collision, the path for 972090e2-1624-4d7c-9aa5-cb36039bf374 is already in used by 972090e2-1624-4d7c-9aa5-cb36039bf374. Assigning a new path.
+2019-04-23T11:51:43.674Z - failed: [db-task][init] path collision, the path for bc42624f-2359-4547-a47d-3c296e60779c is already in used by bc42624f-2359-4547-a47d-3c296e60779c. Assigning a new path.
+2019-04-23T11:51:43.698Z - info: Cocos Services load base data!
+2019-04-23T11:51:43.701Z - failed: [db-task][init] path collision, the path for 58ca659e-4db5-435f-aeb7-f28afce43b3c is already in used by 58ca659e-4db5-435f-aeb7-f28afce43b3c. Assigning a new path.
+2019-04-23T11:51:43.703Z - failed: [db-task][init] path collision, the path for f02cde9e-d2ff-4b4a-a0e1-aa8044dc4e6d is already in used by f02cde9e-d2ff-4b4a-a0e1-aa8044dc4e6d. Assigning a new path.
+2019-04-23T11:51:43.732Z - failed: [db-task][init] path collision, the path for 002d1a6f-202c-4622-98f8-f2c52c702730 is already in used by 002d1a6f-202c-4622-98f8-f2c52c702730. Assigning a new path.
+2019-04-23T11:51:43.734Z - failed: [db-task][init] path collision, the path for 06ec85ee-2a49-48e3-9832-8faba1f0b303 is already in used by 06ec85ee-2a49-48e3-9832-8faba1f0b303. Assigning a new path.
+2019-04-23T11:51:44.244Z - normal: Loading packages
+2019-04-23T11:51:44.249Z - normal: Watching packages
+2019-04-23T11:51:44.344Z - normal: Run Application
