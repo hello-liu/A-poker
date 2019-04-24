@@ -30,7 +30,7 @@
     "relativePath": "Scene"
   },
   "bdfca12b-b32c-4d38-bc5c-b29f2841a6a5": {
-    "asset": 1555915530103,
+    "asset": 1556025040244,
     "meta": 1555839826810,
     "relativePath": "scripts"
   },
@@ -40,7 +40,7 @@
     "relativePath": "prefab"
   },
   "acdc5da0-5f18-4ae8-b4e1-82cb4d3858c0": {
-    "asset": 1555937616562,
+    "asset": 1556031140178,
     "meta": 1555921398504,
     "relativePath": "imgs"
   },
@@ -65,319 +65,29 @@
     "relativePath": "Scene/hall.fire"
   },
   "5be8bbfe-939a-4cd7-a119-83bcada7f3fd": {
-    "asset": 1555921549098,
-    "meta": 1555937594395,
+    "asset": 1556029207656,
+    "meta": 1556029207667,
     "relativePath": "Scene/index.fire"
   },
   "0a3cab81-08f4-42ab-931a-44f05f1fc5df": {
-    "asset": 1555995421266,
-    "meta": 1555995421274,
+    "asset": 1556030848128,
+    "meta": 1556030848143,
     "relativePath": "Scene/room.fire"
-  },
-  "145e2b72-d36c-4eaf-b218-6685222bdb96": {
-    "asset": 1555840887799,
-    "meta": 1555937594770,
-    "relativePath": "scripts/Index.js"
   },
   "3f3b0de2-b31f-487d-9d89-1674c2950355": {
     "asset": 1555993356655,
     "meta": 1555840094187,
     "relativePath": "scripts/util"
   },
-  "d7c0c1fe-4a5f-43dd-a6e2-f49c1f7579a8": {
-    "asset": 1555915997292,
-    "meta": 1555937594805,
-    "relativePath": "scripts/table_1v1.js"
-  },
   "199e30d5-6505-48cc-ac36-932aa673f4ce": {
     "asset": 1555850961406,
     "meta": 1555937594827,
     "relativePath": "scripts/util/NetConfig.js"
   },
-  "178be9f5-52cf-4a31-939a-e546e654be77": {
-    "asset": 1555911929375,
-    "meta": 1555937594871,
-    "relativePath": "scripts/util/NetControl.js"
-  },
   "53b80714-7887-48ff-b264-a7b951b43d07": {
     "asset": 1555840245785,
     "meta": 1555937594894,
     "relativePath": "scripts/util/onfire.js"
-  },
-  "274a5ba8-be16-429f-aa15-cd694ce223fa": {
-    "asset": 1555937616578,
-    "meta": 1555937616562,
-    "relativePath": "imgs/pokers"
-  },
-  "de724648-bbff-4ab6-be1f-13429aaf623a": {
-    "asset": 1555945642888,
-    "meta": 1555945643021,
-    "relativePath": "resources/pokers/103.png"
-  },
-  "8552e7c0-2d91-4628-8ab4-cd2f62b08f3b": {
-    "asset": 1555945642888,
-    "meta": 1555945643019,
-    "relativePath": "resources/pokers/102.png"
-  },
-  "fff7bb53-169c-47b0-8762-aff9401b887f": {
-    "asset": 1555945642889,
-    "meta": 1555945643050,
-    "relativePath": "resources/pokers/104.png"
-  },
-  "5a1ff82b-a447-4552-950f-7acbb01c28e2": {
-    "asset": 1555945642889,
-    "meta": 1555945643049,
-    "relativePath": "resources/pokers/105.png"
-  },
-  "1aa04982-a161-4282-907e-e516e1ed4d6e": {
-    "asset": 1555945642889,
-    "meta": 1555945643082,
-    "relativePath": "resources/pokers/106.png"
-  },
-  "d24088ba-3d4a-4a0d-8fcc-0bc574d18d17": {
-    "asset": 1555945642889,
-    "meta": 1555945643081,
-    "relativePath": "resources/pokers/107.png"
-  },
-  "0971c711-766d-4336-a01f-207cbf682a7a": {
-    "asset": 1555945642889,
-    "meta": 1555945643115,
-    "relativePath": "resources/pokers/108.png"
-  },
-  "6459939e-a290-451a-9ea1-e3901320487f": {
-    "asset": 1555945642889,
-    "meta": 1555945643116,
-    "relativePath": "resources/pokers/109.png"
-  },
-  "a8b9260e-e9e2-4fae-aaf0-4eb7b7082a17": {
-    "asset": 1555945642889,
-    "meta": 1555945643159,
-    "relativePath": "resources/pokers/110.png"
-  },
-  "423cb910-b693-4f81-bbee-01830b979512": {
-    "asset": 1555945642890,
-    "meta": 1555945643156,
-    "relativePath": "resources/pokers/111.png"
-  },
-  "935d3b0d-3e82-4b4a-b36d-0934c6cce33d": {
-    "asset": 1555945642890,
-    "meta": 1555945643191,
-    "relativePath": "resources/pokers/112.png"
-  },
-  "a3fb058a-9184-41df-a8a4-aac544ac210e": {
-    "asset": 1555945642890,
-    "meta": 1555945643190,
-    "relativePath": "resources/pokers/113.png"
-  },
-  "efec1e83-e137-43d8-ad73-2675184ea58c": {
-    "asset": 1555945642890,
-    "meta": 1555945643221,
-    "relativePath": "resources/pokers/114.png"
-  },
-  "b5ea1532-f1e5-431a-969a-899b90f236f1": {
-    "asset": 1555945642891,
-    "meta": 1555945643222,
-    "relativePath": "resources/pokers/202.png"
-  },
-  "3d851bbc-4ba1-49ed-aca3-dc0636116d20": {
-    "asset": 1555945642891,
-    "meta": 1555945643259,
-    "relativePath": "resources/pokers/204.png"
-  },
-  "c630de0a-f045-4547-a186-9bd2f1779150": {
-    "asset": 1555945642891,
-    "meta": 1555945643259,
-    "relativePath": "resources/pokers/203.png"
-  },
-  "18adec43-ce31-4ee5-a7b2-22b1410f14bb": {
-    "asset": 1555945642891,
-    "meta": 1555945643287,
-    "relativePath": "resources/pokers/206.png"
-  },
-  "6acba41d-43b7-421d-b789-359fec14602b": {
-    "asset": 1555945642891,
-    "meta": 1555945643286,
-    "relativePath": "resources/pokers/205.png"
-  },
-  "3e295046-9da2-4428-8901-c7ccb055246e": {
-    "asset": 1555945642891,
-    "meta": 1555945643314,
-    "relativePath": "resources/pokers/207.png"
-  },
-  "d77bbfcb-f41f-4750-aecd-d34495d4b3b6": {
-    "asset": 1555945642892,
-    "meta": 1555945643315,
-    "relativePath": "resources/pokers/208.png"
-  },
-  "2467f72e-8206-4725-ba2f-85538da498dd": {
-    "asset": 1555945642892,
-    "meta": 1555945643345,
-    "relativePath": "resources/pokers/209.png"
-  },
-  "b6b1994d-bab0-4798-bcfe-e354d13ae7c7": {
-    "asset": 1555945642892,
-    "meta": 1555945643347,
-    "relativePath": "resources/pokers/210.png"
-  },
-  "6ed09a4f-6004-48b1-bc93-2e0fbef6c22c": {
-    "asset": 1555945642892,
-    "meta": 1555945643376,
-    "relativePath": "resources/pokers/211.png"
-  },
-  "2344b75b-7db4-480a-9ec7-cc35a07c5f16": {
-    "asset": 1555945642892,
-    "meta": 1555945643377,
-    "relativePath": "resources/pokers/212.png"
-  },
-  "b9a46932-c023-4f2e-b1a4-afec665fbedc": {
-    "asset": 1555945642893,
-    "meta": 1555945643416,
-    "relativePath": "resources/pokers/214.png"
-  },
-  "6e1a0953-0f3c-4d63-ba44-62447238a43a": {
-    "asset": 1555945642892,
-    "meta": 1555945643414,
-    "relativePath": "resources/pokers/213.png"
-  },
-  "b5fc335f-1f25-4914-b954-db19e3ce046d": {
-    "asset": 1555945642893,
-    "meta": 1555945643453,
-    "relativePath": "resources/pokers/303.png"
-  },
-  "622f14a0-3658-4489-979b-4cac489ff16a": {
-    "asset": 1555945642893,
-    "meta": 1555945643451,
-    "relativePath": "resources/pokers/302.png"
-  },
-  "c2d2b4a7-d701-40e0-81ee-4aba91696c0b": {
-    "asset": 1555945642893,
-    "meta": 1555945643479,
-    "relativePath": "resources/pokers/304.png"
-  },
-  "44c4a5e7-62c9-4152-ae9c-6c17dc32b2c6": {
-    "asset": 1555945642893,
-    "meta": 1555945643480,
-    "relativePath": "resources/pokers/305.png"
-  },
-  "7570f3fc-9334-4210-8fa8-85ea74983560": {
-    "asset": 1555945642893,
-    "meta": 1555945643509,
-    "relativePath": "resources/pokers/306.png"
-  },
-  "eab14ba9-f5f2-4113-814b-ffce4bef1a53": {
-    "asset": 1555945642894,
-    "meta": 1555945643511,
-    "relativePath": "resources/pokers/307.png"
-  },
-  "96b8c87a-310d-4764-ae02-41a5e110d616": {
-    "asset": 1555945642894,
-    "meta": 1555945643538,
-    "relativePath": "resources/pokers/308.png"
-  },
-  "20f16235-ef9d-4b55-a4a4-08aa58876a99": {
-    "asset": 1555945642894,
-    "meta": 1555945643537,
-    "relativePath": "resources/pokers/309.png"
-  },
-  "2b264cfc-49ee-4c15-9acd-827995820a0f": {
-    "asset": 1555945642894,
-    "meta": 1555945643565,
-    "relativePath": "resources/pokers/310.png"
-  },
-  "bcb52164-9aa5-4695-9a3d-d154e5b42b8b": {
-    "asset": 1555945642894,
-    "meta": 1555945643566,
-    "relativePath": "resources/pokers/311.png"
-  },
-  "0f158e29-03a0-4b33-b625-38757ba7e887": {
-    "asset": 1555945642894,
-    "meta": 1555945643596,
-    "relativePath": "resources/pokers/312.png"
-  },
-  "9e90259e-2231-42e0-9d7c-424cd68c7420": {
-    "asset": 1555945642894,
-    "meta": 1555945643594,
-    "relativePath": "resources/pokers/313.png"
-  },
-  "8ad5557c-0fb0-49a7-9321-ca9aafee072f": {
-    "asset": 1555945642895,
-    "meta": 1555945643621,
-    "relativePath": "resources/pokers/314.png"
-  },
-  "54462776-1b37-42cb-aa33-aed249f90890": {
-    "asset": 1555945642895,
-    "meta": 1555945643623,
-    "relativePath": "resources/pokers/402.png"
-  },
-  "a83cda38-0936-4bf8-9326-4137a5c87426": {
-    "asset": 1555945642895,
-    "meta": 1555945643652,
-    "relativePath": "resources/pokers/404.png"
-  },
-  "8fa4f52a-ba38-4cb4-b650-5d5b2004009d": {
-    "asset": 1555945642895,
-    "meta": 1555945643651,
-    "relativePath": "resources/pokers/403.png"
-  },
-  "30fc156b-1441-43a9-9b3d-7dec9d5e0273": {
-    "asset": 1555945642895,
-    "meta": 1555945643678,
-    "relativePath": "resources/pokers/406.png"
-  },
-  "ccb78513-3193-451c-9e0e-aad4219e618d": {
-    "asset": 1555945642895,
-    "meta": 1555945643677,
-    "relativePath": "resources/pokers/405.png"
-  },
-  "29bd76a1-b761-4b37-a586-5bdfd7202978": {
-    "asset": 1555945642896,
-    "meta": 1555945643705,
-    "relativePath": "resources/pokers/407.png"
-  },
-  "dd7bb5e9-5a54-4205-8057-0898bf7b50bf": {
-    "asset": 1555945642896,
-    "meta": 1555945643706,
-    "relativePath": "resources/pokers/408.png"
-  },
-  "9a510d8a-f2b8-4217-98cc-fb09099b099c": {
-    "asset": 1555945642896,
-    "meta": 1555945643732,
-    "relativePath": "resources/pokers/409.png"
-  },
-  "41e79ba3-0e66-4804-82f3-35a0c78e151c": {
-    "asset": 1555945642896,
-    "meta": 1555945643733,
-    "relativePath": "resources/pokers/410.png"
-  },
-  "03d53b06-576f-43c5-8f82-12f16935fd56": {
-    "asset": 1555945642896,
-    "meta": 1555945643759,
-    "relativePath": "resources/pokers/411.png"
-  },
-  "9a04b404-4c02-4471-909f-b553e3b5f66e": {
-    "asset": 1555945642896,
-    "meta": 1555945643760,
-    "relativePath": "resources/pokers/412.png"
-  },
-  "2371a462-6d02-4690-9a10-634d2b0fe6ae": {
-    "asset": 1555945642897,
-    "meta": 1555945643789,
-    "relativePath": "resources/pokers/414.png"
-  },
-  "6b6c3e97-8eb4-4257-8e0d-008cb1f6d68a": {
-    "asset": 1555945642897,
-    "meta": 1555945643787,
-    "relativePath": "resources/pokers/413.png"
-  },
-  "7e8a41c7-a27c-492a-982d-2610832840f4": {
-    "asset": 1555945642897,
-    "meta": 1555945643816,
-    "relativePath": "resources/pokers/501.png"
-  },
-  "ba029dc2-7a07-443a-8805-1bc571ebadce": {
-    "asset": 1555945642897,
-    "meta": 1555945643817,
-    "relativePath": "resources/pokers/502.png"
   },
   "71561142-4c83-4933-afca-cb7a17f67053": {
     "asset": 1552197907000,
@@ -609,24 +319,314 @@
     "meta": 1555945620654,
     "relativePath": "resources"
   },
-  "534ea3e2-4e88-40da-9cac-0dc9b764520d": {
-    "asset": 1555945642872,
-    "meta": 1555945642926,
-    "relativePath": "resources/pokers"
-  },
   "8ce37fee-23a8-4fa4-847c-7c7ceb3a3bcc": {
     "asset": 1555993436345,
     "meta": 1555993544607,
     "relativePath": "scripts/util/util.js"
   },
+  "178be9f5-52cf-4a31-939a-e546e654be77": {
+    "asset": 1556027441961,
+    "meta": 1556027446701,
+    "relativePath": "scripts/util/NetControl.js"
+  },
+  "5ecdd695-2913-4b43-98c5-9f48e31e3fe3": {
+    "asset": 1556027718991,
+    "meta": 1556027723214,
+    "relativePath": "scripts/global.js"
+  },
+  "145e2b72-d36c-4eaf-b218-6685222bdb96": {
+    "asset": 1556030080646,
+    "meta": 1556030187169,
+    "relativePath": "scripts/Index.js"
+  },
+  "534ea3e2-4e88-40da-9cac-0dc9b764520d": {
+    "asset": 1556031200285,
+    "meta": 1555945642926,
+    "relativePath": "resources/pokers"
+  },
+  "8552e7c0-2d91-4628-8ab4-cd2f62b08f3b": {
+    "asset": 1556031200289,
+    "meta": 1556031200490,
+    "relativePath": "resources/pokers/102.png"
+  },
+  "de724648-bbff-4ab6-be1f-13429aaf623a": {
+    "asset": 1556031200292,
+    "meta": 1556031200491,
+    "relativePath": "resources/pokers/103.png"
+  },
+  "fff7bb53-169c-47b0-8762-aff9401b887f": {
+    "asset": 1556031200289,
+    "meta": 1556031200521,
+    "relativePath": "resources/pokers/104.png"
+  },
+  "5a1ff82b-a447-4552-950f-7acbb01c28e2": {
+    "asset": 1556031200289,
+    "meta": 1556031200523,
+    "relativePath": "resources/pokers/105.png"
+  },
+  "1aa04982-a161-4282-907e-e516e1ed4d6e": {
+    "asset": 1556031200289,
+    "meta": 1556031200554,
+    "relativePath": "resources/pokers/106.png"
+  },
+  "d24088ba-3d4a-4a0d-8fcc-0bc574d18d17": {
+    "asset": 1556031200289,
+    "meta": 1556031200556,
+    "relativePath": "resources/pokers/107.png"
+  },
+  "0971c711-766d-4336-a01f-207cbf682a7a": {
+    "asset": 1556031200289,
+    "meta": 1556031200585,
+    "relativePath": "resources/pokers/108.png"
+  },
+  "6459939e-a290-451a-9ea1-e3901320487f": {
+    "asset": 1556031200289,
+    "meta": 1556031200587,
+    "relativePath": "resources/pokers/109.png"
+  },
+  "a8b9260e-e9e2-4fae-aaf0-4eb7b7082a17": {
+    "asset": 1556031200289,
+    "meta": 1556031200615,
+    "relativePath": "resources/pokers/110.png"
+  },
+  "423cb910-b693-4f81-bbee-01830b979512": {
+    "asset": 1556031200289,
+    "meta": 1556031200617,
+    "relativePath": "resources/pokers/111.png"
+  },
+  "935d3b0d-3e82-4b4a-b36d-0934c6cce33d": {
+    "asset": 1556031200289,
+    "meta": 1556031200649,
+    "relativePath": "resources/pokers/112.png"
+  },
+  "a3fb058a-9184-41df-a8a4-aac544ac210e": {
+    "asset": 1556031200290,
+    "meta": 1556031200652,
+    "relativePath": "resources/pokers/113.png"
+  },
+  "efec1e83-e137-43d8-ad73-2675184ea58c": {
+    "asset": 1556031200290,
+    "meta": 1556031200679,
+    "relativePath": "resources/pokers/114.png"
+  },
+  "b5ea1532-f1e5-431a-969a-899b90f236f1": {
+    "asset": 1556031200289,
+    "meta": 1556031200682,
+    "relativePath": "resources/pokers/202.png"
+  },
+  "3d851bbc-4ba1-49ed-aca3-dc0636116d20": {
+    "asset": 1556031200289,
+    "meta": 1556031200710,
+    "relativePath": "resources/pokers/204.png"
+  },
+  "c630de0a-f045-4547-a186-9bd2f1779150": {
+    "asset": 1556031200290,
+    "meta": 1556031200712,
+    "relativePath": "resources/pokers/203.png"
+  },
+  "6acba41d-43b7-421d-b789-359fec14602b": {
+    "asset": 1556031200289,
+    "meta": 1556031200740,
+    "relativePath": "resources/pokers/205.png"
+  },
+  "18adec43-ce31-4ee5-a7b2-22b1410f14bb": {
+    "asset": 1556031200290,
+    "meta": 1556031200742,
+    "relativePath": "resources/pokers/206.png"
+  },
+  "3e295046-9da2-4428-8901-c7ccb055246e": {
+    "asset": 1556031200290,
+    "meta": 1556031200771,
+    "relativePath": "resources/pokers/207.png"
+  },
+  "d77bbfcb-f41f-4750-aecd-d34495d4b3b6": {
+    "asset": 1556031200289,
+    "meta": 1556031200773,
+    "relativePath": "resources/pokers/208.png"
+  },
+  "2467f72e-8206-4725-ba2f-85538da498dd": {
+    "asset": 1556031200290,
+    "meta": 1556031200804,
+    "relativePath": "resources/pokers/209.png"
+  },
+  "b6b1994d-bab0-4798-bcfe-e354d13ae7c7": {
+    "asset": 1556031200290,
+    "meta": 1556031200805,
+    "relativePath": "resources/pokers/210.png"
+  },
+  "2344b75b-7db4-480a-9ec7-cc35a07c5f16": {
+    "asset": 1556031200290,
+    "meta": 1556031200836,
+    "relativePath": "resources/pokers/212.png"
+  },
+  "6ed09a4f-6004-48b1-bc93-2e0fbef6c22c": {
+    "asset": 1556031200290,
+    "meta": 1556031200837,
+    "relativePath": "resources/pokers/211.png"
+  },
+  "b9a46932-c023-4f2e-b1a4-afec665fbedc": {
+    "asset": 1556031200290,
+    "meta": 1556031200866,
+    "relativePath": "resources/pokers/214.png"
+  },
+  "6e1a0953-0f3c-4d63-ba44-62447238a43a": {
+    "asset": 1556031200290,
+    "meta": 1556031200868,
+    "relativePath": "resources/pokers/213.png"
+  },
+  "b5fc335f-1f25-4914-b954-db19e3ce046d": {
+    "asset": 1556031200291,
+    "meta": 1556031200899,
+    "relativePath": "resources/pokers/303.png"
+  },
+  "622f14a0-3658-4489-979b-4cac489ff16a": {
+    "asset": 1556031200290,
+    "meta": 1556031200900,
+    "relativePath": "resources/pokers/302.png"
+  },
+  "c2d2b4a7-d701-40e0-81ee-4aba91696c0b": {
+    "asset": 1556031200291,
+    "meta": 1556031200929,
+    "relativePath": "resources/pokers/304.png"
+  },
+  "44c4a5e7-62c9-4152-ae9c-6c17dc32b2c6": {
+    "asset": 1556031200291,
+    "meta": 1556031200931,
+    "relativePath": "resources/pokers/305.png"
+  },
+  "eab14ba9-f5f2-4113-814b-ffce4bef1a53": {
+    "asset": 1556031200292,
+    "meta": 1556031200962,
+    "relativePath": "resources/pokers/307.png"
+  },
+  "7570f3fc-9334-4210-8fa8-85ea74983560": {
+    "asset": 1556031200291,
+    "meta": 1556031200963,
+    "relativePath": "resources/pokers/306.png"
+  },
+  "96b8c87a-310d-4764-ae02-41a5e110d616": {
+    "asset": 1556031200291,
+    "meta": 1556031200992,
+    "relativePath": "resources/pokers/308.png"
+  },
+  "20f16235-ef9d-4b55-a4a4-08aa58876a99": {
+    "asset": 1556031200291,
+    "meta": 1556031200994,
+    "relativePath": "resources/pokers/309.png"
+  },
+  "2b264cfc-49ee-4c15-9acd-827995820a0f": {
+    "asset": 1556031200291,
+    "meta": 1556031201024,
+    "relativePath": "resources/pokers/310.png"
+  },
+  "bcb52164-9aa5-4695-9a3d-d154e5b42b8b": {
+    "asset": 1556031200291,
+    "meta": 1556031201026,
+    "relativePath": "resources/pokers/311.png"
+  },
+  "0f158e29-03a0-4b33-b625-38757ba7e887": {
+    "asset": 1556031200291,
+    "meta": 1556031201059,
+    "relativePath": "resources/pokers/312.png"
+  },
+  "9e90259e-2231-42e0-9d7c-424cd68c7420": {
+    "asset": 1556031200291,
+    "meta": 1556031201060,
+    "relativePath": "resources/pokers/313.png"
+  },
+  "8ad5557c-0fb0-49a7-9321-ca9aafee072f": {
+    "asset": 1556031200291,
+    "meta": 1556031201089,
+    "relativePath": "resources/pokers/314.png"
+  },
+  "54462776-1b37-42cb-aa33-aed249f90890": {
+    "asset": 1556031200291,
+    "meta": 1556031201091,
+    "relativePath": "resources/pokers/402.png"
+  },
+  "a83cda38-0936-4bf8-9326-4137a5c87426": {
+    "asset": 1556031200291,
+    "meta": 1556031201120,
+    "relativePath": "resources/pokers/404.png"
+  },
+  "8fa4f52a-ba38-4cb4-b650-5d5b2004009d": {
+    "asset": 1556031200291,
+    "meta": 1556031201122,
+    "relativePath": "resources/pokers/403.png"
+  },
+  "ccb78513-3193-451c-9e0e-aad4219e618d": {
+    "asset": 1556031200291,
+    "meta": 1556031201152,
+    "relativePath": "resources/pokers/405.png"
+  },
+  "30fc156b-1441-43a9-9b3d-7dec9d5e0273": {
+    "asset": 1556031200291,
+    "meta": 1556031201154,
+    "relativePath": "resources/pokers/406.png"
+  },
+  "dd7bb5e9-5a54-4205-8057-0898bf7b50bf": {
+    "asset": 1556031200291,
+    "meta": 1556031201185,
+    "relativePath": "resources/pokers/408.png"
+  },
+  "29bd76a1-b761-4b37-a586-5bdfd7202978": {
+    "asset": 1556031200291,
+    "meta": 1556031201186,
+    "relativePath": "resources/pokers/407.png"
+  },
+  "9a510d8a-f2b8-4217-98cc-fb09099b099c": {
+    "asset": 1556031200291,
+    "meta": 1556031201216,
+    "relativePath": "resources/pokers/409.png"
+  },
+  "41e79ba3-0e66-4804-82f3-35a0c78e151c": {
+    "asset": 1556031200291,
+    "meta": 1556031201218,
+    "relativePath": "resources/pokers/410.png"
+  },
+  "9a04b404-4c02-4471-909f-b553e3b5f66e": {
+    "asset": 1556031200291,
+    "meta": 1556031201245,
+    "relativePath": "resources/pokers/412.png"
+  },
+  "03d53b06-576f-43c5-8f82-12f16935fd56": {
+    "asset": 1556031200291,
+    "meta": 1556031201248,
+    "relativePath": "resources/pokers/411.png"
+  },
+  "6b6c3e97-8eb4-4257-8e0d-008cb1f6d68a": {
+    "asset": 1556031200291,
+    "meta": 1556031201276,
+    "relativePath": "resources/pokers/413.png"
+  },
+  "2371a462-6d02-4690-9a10-634d2b0fe6ae": {
+    "asset": 1556031200291,
+    "meta": 1556031201279,
+    "relativePath": "resources/pokers/414.png"
+  },
+  "7e8a41c7-a27c-492a-982d-2610832840f4": {
+    "asset": 1556031200292,
+    "meta": 1556031201307,
+    "relativePath": "resources/pokers/501.png"
+  },
+  "ba029dc2-7a07-443a-8805-1bc571ebadce": {
+    "asset": 1556031200292,
+    "meta": 1556031201310,
+    "relativePath": "resources/pokers/502.png"
+  },
   "797ebe20-dac9-4ac5-aebf-9276de02db5f": {
-    "asset": 1555995377961,
-    "meta": 1555995382887,
+    "asset": 1556081178684,
+    "meta": 1556081180612,
     "relativePath": "scripts/room.js"
   },
+  "d7c0c1fe-4a5f-43dd-a6e2-f49c1f7579a8": {
+    "asset": 1556081152227,
+    "meta": 1556081180613,
+    "relativePath": "scripts/table_1v1.js"
+  },
   "7e8861bf-0ab6-4249-90f1-2a2e474d2361": {
-    "asset": 1555997159690,
-    "meta": 1555997165358,
+    "asset": 1556081335963,
+    "meta": 1556081342702,
     "relativePath": "scripts/hall.js"
   }
 }

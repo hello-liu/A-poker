@@ -1,15 +1,16 @@
 {
 	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": false,
 		"postcss": true,
 		"minified": false,
-		"newFeature": false
+		"newFeature": false,
+		"autoAudits": false
 	},
 	"compileType": "game",
 	"libVersion": "game",
-	"appid": "wxf5f2cd65e92c5ef2",
+	"appid": "wx6ac3f5090a6b99c5",
 	"projectname": "tt",
 	"condition": {
 		"search": {
@@ -29,5 +30,6 @@
 			"current": -1,
 			"list": []
 		}
-	}
+	},
+	"isGameTourist": true
 }

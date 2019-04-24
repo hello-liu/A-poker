@@ -33,6 +33,10 @@ var NetControl={
         this._sock.send(msg);
         console.log("send msg"+msg);
     },
+    close:function(){
+        this._sock.close();
+        console.log("_sock close");
+    },
     onmessage:function(f){
         this._sock.onmessage(f);
     },

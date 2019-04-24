@@ -2,7 +2,7 @@
 cc._RF.push(module, '7e886G/CrZCSZDxKi5HTSNh', 'hall', __filename);
 // scripts/hall.js
 
-"use strict";
+'use strict';
 
 // Learn cc.Class:
 //  - [Chinese] https://docs.cocos.com/creator/manual/zh/scripting/class.html
@@ -43,12 +43,32 @@ cc.Class({
         // var table_1_ = cc.find("Canvas/rooms/view/content/table_1");
         // table_1_.x = table_1_.x+100;
     },
+    onMessage: function onMessage(obj) {
+        var data = JSON.parse(obj.data);
+        // console.log(data);
+
+        if (data && data.code == 'hall') {
+            //大厅消息
+            console.log(data);
+            onfire.clear();
+        }
+    },
     onLoad: function onLoad() {
-        this.init_table();
+        this.global = require('./global');
+        this.netControl = require('./util/NetControl');
+        //绑定消息事件
+        this.msssageFire = onfire.on("onmessage", this.onMessage.bind(this));
+
+        this.netControl.send('{"method":"tables"}');
+
         this.scheduleOnce(function () {
+            this.init_table();
             this.init_table_position();
         }, 0);
         this.out_bt.node.on('click', this.on_out_bt, this);
+
+        //预加载场景
+        cc.director.preloadScene('hall');
     },
     init_table_position: function init_table_position() {
 
@@ -91,6 +111,8 @@ cc.Class({
         }
     },
     on_out_bt: function on_out_bt() {
+        var netControl = require('./util/NetControl');
+        netControl.close();
         cc.director.loadScene('index');
     },
 

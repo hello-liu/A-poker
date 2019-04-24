@@ -42,8 +42,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.5504583333333334,
-      "y": 0.5504583333333334,
+      "x": 0.5508333333333333,
+      "y": 0.5508333333333333,
       "z": 1
     },
     "_quat": {
@@ -1817,8 +1817,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "出牌",
-    "_N$string": "出牌",
+    "_string": "出牌/扣牌",
+    "_N$string": "出牌/扣牌",
     "_fontSize": 20,
     "_lineHeight": 40,
     "_enableWrapText": false,
@@ -2010,8 +2010,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "桌:1v1-1，叫分，主：红，庄：99，闲 80",
-    "_N$string": "桌:1v1-1，叫分，主：红，庄：99，闲 80",
+    "_string": "桌:1v1-1，主：红，庄：99，闲 80，叫分",
+    "_N$string": "桌:1v1-1，主：红，庄：99，闲 80，叫分",
     "_fontSize": 30,
     "_lineHeight": 40,
     "_enableWrapText": true,

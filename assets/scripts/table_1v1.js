@@ -25,33 +25,39 @@ cc.Class({
         // console.log(this.sit_up_lable.string);
         // this.sit_up_lable.string = '阿拉蕾';
 
-        //连接服务器
-        this.netControl=require('./util/NetControl');
-        console.log("开始连接");
-        this.netControl.connect();
-        console.log("连接完成");
-        this.msssageFire=onfire.on("onmessage",this.onMessage.bind(this));
+        this.global = require('./global');
+        this.netControl = require('./util/NetControl');
+        //绑定消息事件
+        // this.msssageFire=onfire.on("onmessage",this.onMessage.bind(this));
 
         //按钮事件
         this.up_bt.node.on('click',this.on_up_bt,this);
         this.down_bt.node.on('click',this.on_down_bt,this);
     },
     onMessage:function(obj){
-        console.log(obj);
-        onfire.clear();
+        var data = obj.data;        
+        if(data && data.code != 'hall'){
+            //大厅消息
+            console.log(data);
+            onfire.clear();
+        }
     },
     on_up_bt(){
         console.log('on_up_bt');
+        var table_name = this.node.name;
+        var player_name = this.global.name;
+
+        this.netControl.send('{"method":"in","roomId":"'+table_name+'","sit":"up","type":"1v1","playerId":"'+player_name+'","playerName":"'+player_name+'"}' );
         cc.director.loadScene('room');
-
-        // this.netControl.send('{"method":"in","roomId":"'+this.node.name+'","sit":"up","type":"1v1","playerId":1,"playerName":"张三"}' );
-
     },
     
     on_down_bt(){
         console.log('on_down_bt');
+        var table_name = this.node.name;
+        var player_name = this.global.name;
+
+        this.netControl.send('{"method":"in","roomId":"'+table_name+'","sit":"down","type":"1v1","playerId":"'+player_name+'","playerName":"'+player_name+'"}' );
         cc.director.loadScene('room');
-        // this.netControl.send('{"method":"in","roomId":"'+this.node.name+'","sit":"down","type":"1v1","playerId":2,"playerName":"李四"}' );
     },
 
     start () {

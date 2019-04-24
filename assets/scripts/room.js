@@ -32,24 +32,19 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
+        console.log('room onLoad');
 
         this.util = require('./util/util');
+        //绑定消息事件
+        // this.msssageFire=onfire.on("onmessage",this.onMessage.bind(this));
 
         //设置当前能选几张牌
         this.curr_poker_num = 4;
         //当前选中的牌
         this.curr_poker = [];
-
-         //连接服务器
-         this.netControl=require('./util/NetControl');
-         console.log("开始连接");
-         this.netControl.connect();
-         console.log("连接完成");
-         this.msssageFire=onfire.on("onmessage",this.onMessage.bind(this));
-
+         
          //按钮事件
         this.out_bt.node.on('click',this.on_out_bt,this);
-
 
         //加载扑克牌图片资源
         this.load_pokers();
@@ -57,11 +52,8 @@ cc.Class({
     },
     //加载扑克牌资源
     load_pokers(){
-        //扑克牌
-        var pokers_ = [102,103,104,105,106,107,108,109,110,111,112,113,114,
-            202,303,304,205,206,207,208,209,210,211,212,213,214,
-            302,303,304,305,306,307,308,309,310,311,312,313,314,
-            402,403,404,405,406,407,408,409,410,411,412,413,414];
+
+        console.log('room load_pokers');
 
         var that = this;
         that.pokers = {};
@@ -71,11 +63,13 @@ cc.Class({
             }
             that.setPokers();
         });
+        console.log(that.pokers );
 
         
     },
     //设置显示的牌
     setPokers(){
+        console.log('room setPokers');
 
         //设置当前玩家手中的牌
         var pokers = [202,203,204,205,207,208,209,210,211,111,212,313,414,305,111,212];
@@ -102,6 +96,8 @@ cc.Class({
     },
     //牌事件
     onPoker(event){
+        console.log('room onPoker');
+
 
         // console.log(event);
         if(event.type == 'touchmove'){
@@ -138,12 +134,13 @@ cc.Class({
     },
 
     onMessage:function(obj){
+        console.log('room onMessage');
         console.log(obj);
-        onfire.clear();
+        // onfire.clear();
     },
 
     start () {
-
+        
     },
 
     // update (dt) {},

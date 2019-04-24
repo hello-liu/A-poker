@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.5504583333333334,
-      "y": 0.5504583333333334,
+      "x": 0.5508333333333333,
+      "y": 0.5508333333333333,
       "z": 1
     },
     "_quat": {
@@ -59,7 +59,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Canvas",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 1
     },
@@ -84,16 +84,19 @@
       },
       {
         "__id__": 28
+      },
+      {
+        "__id__": 33
       }
     ],
     "_active": true,
     "_level": 0,
     "_components": [
       {
-        "__id__": 33
+        "__id__": 35
       },
       {
-        "__id__": 34
+        "__id__": 36
       }
     ],
     "_prefab": null,
@@ -144,7 +147,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Main Camera",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 2
     },
@@ -226,7 +229,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Layout",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 2
     },
@@ -350,7 +353,7 @@
   {
     "__type__": "cc.Node",
     "_name": "name_input",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 2
     },
@@ -420,7 +423,7 @@
   {
     "__type__": "cc.Node",
     "_name": "BACKGROUND_SPRITE",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 8
     },
@@ -593,7 +596,7 @@
   {
     "__type__": "cc.Node",
     "_name": "PLACEHOLDER_LABEL",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 8
     },
@@ -721,7 +724,7 @@
   {
     "__type__": "cc.Node",
     "_name": "login_bt",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 2
     },
@@ -788,7 +791,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Label",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 16
     },
@@ -981,7 +984,7 @@
   {
     "__type__": "cc.Node",
     "_name": "wx_login_bt",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 2
     },
@@ -1048,7 +1051,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Label",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 21
     },
@@ -1241,7 +1244,7 @@
   {
     "__type__": "cc.Node",
     "_name": "New Label",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 2
     },
@@ -1326,7 +1329,7 @@
   {
     "__type__": "cc.Node",
     "_name": "head",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 2
     },
@@ -1389,7 +1392,7 @@
   {
     "__type__": "cc.Node",
     "_name": "head",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 28
     },
@@ -1477,7 +1480,7 @@
   {
     "__type__": "cc.Node",
     "_name": "head_lable",
-    "_objFlags": 0,
+    "_objFlags": 512,
     "_parent": {
       "__id__": 28
     },
@@ -1500,7 +1503,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 200,
+      "width": 280,
       "height": 40
     },
     "_anchorPoint": {
@@ -1510,8 +1513,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 221,
-      "y": 19,
+      "x": 248,
+      "y": 17,
       "z": 0
     },
     "_scale": {
@@ -1543,8 +1546,8 @@
     },
     "_enabled": true,
     "_useOriginalSize": false,
-    "_string": "米牛小作坊",
-    "_N$string": "米牛小作坊",
+    "_string": "米牛小作坊-A分",
+    "_N$string": "米牛小作坊-A分",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,
@@ -1558,6 +1561,91 @@
     "_N$overflow": 0,
     "_N$cacheMode": 0,
     "_id": "b8eKmBnlRFbbeuJ7K+1b3v"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "login_tip",
+    "_objFlags": 512,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 34
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 216,
+      "g": 64,
+      "b": 64,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 40
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 60,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "groupIndex": 0,
+    "_id": "25dWHF8wtHkrzudhxBc5vo"
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "_useOriginalSize": false,
+    "_string": "",
+    "_N$string": "",
+    "_fontSize": 30,
+    "_lineHeight": 40,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_batchAsBitmap": false,
+    "_N$horizontalAlign": 0,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 0,
+    "_N$cacheMode": 0,
+    "_id": "bcuy5l3M9HxLEwI5sDJA3H"
   },
   {
     "__type__": "cc.Canvas",
@@ -1592,6 +1680,9 @@
     },
     "wx_login_bt": {
       "__id__": 25
+    },
+    "login_tip_lb": {
+      "__id__": 34
     },
     "_id": "2eVwicRN9PrpFGo/BjPbOw"
   }
