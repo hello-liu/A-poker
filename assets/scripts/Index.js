@@ -37,8 +37,8 @@ cc.Class({
                     //全局变量
                     var global = require('./global');
                     var netControl = require('./util/NetControl');
-                    this.msssageFire=onfire.on("onopen",this.onOpen.bind(this));
                     netControl.connect();
+                    netControl.bind_event('open',this.onOpen);
                     global.name = name;
                     //绑定事件
                     this.login_tip_lb.string = '网络连接中。。。'

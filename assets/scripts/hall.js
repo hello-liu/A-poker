@@ -31,6 +31,13 @@ cc.Class({
         double_bt : cc.Button, //
         set_bt : cc.Button, //
         out_bt : cc.Button, //
+
+        list_page : cc.Node,
+        notice_page : cc.Node,
+        create_page : cc.Node,
+        single_page : cc.Node,
+        double_page : cc.Node,
+        set_page : cc.Node,
     },
 
     update(){
@@ -40,12 +47,73 @@ cc.Class({
 
     onMessage(obj){
         var data = JSON.parse (obj.data);                  
-        // console.log(data);
+        console.log(data);
   
-        if(data && data.code == 'hall'){
-            //大厅消息
-            console.log(data);
-            onfire.clear();
+        if(data && data.tables ){
+            //返回了 tables消息，设置桌子的信息
+            for(var table of data.tables){
+                var table_name = table.id                
+                if(table.player_up){
+                    //上有人显示人名字
+                    var node = cc.find("Canvas/rooms/view/content/"+table_name+"/sit_up/Background/Label")
+                    if(node){
+                        var lable = node.getComponent(cc.Label)
+                        lable.string = table.player_up.name
+                    }
+                }else{
+                    //没得人显示加入
+                    var node = cc.find("Canvas/rooms/view/content/"+table_name+"/sit_up/Background/Label")
+                    if(node){
+                        var lable = node.getComponent(cc.Label)
+                        lable.string = '加入'
+                    }
+                }
+                if(table.player_down){
+                    //上有人显示人名字
+                    var node = cc.find("Canvas/rooms/view/content/"+table_name+"/sit_down/Background/Label")
+                    if(node){
+                        var lable = node.getComponent(cc.Label)
+                        lable.string = table.player_down.name
+                    }
+                }else{
+                    //没得人显示加入
+                    var node = cc.find("Canvas/rooms/view/content/"+table_name+"/sit_down/Background/Label")
+                    if(node){
+                        var lable = node.getComponent(cc.Label)
+                        lable.string = '加入'
+                    }
+                }
+                if(table.player_left){
+                    //上有人显示人名字
+                    var node = cc.find("Canvas/rooms/view/content/"+table_name+"/sit_left/Background/Label")
+                    if(node){
+                        var lable = node.getComponent(cc.Label)
+                        lable.string = table.player_left.name
+                    }
+                }else{
+                    //没得人显示加入
+                    var node = cc.find("Canvas/rooms/view/content/"+table_name+"/sit_left/Background/Label")
+                    if(node){
+                        var lable = node.getComponent(cc.Label)
+                        lable.string = '加入'
+                    }
+                }
+                if(table.player_right){
+                    //上有人显示人名字
+                    var node = cc.find("Canvas/rooms/view/content/"+table_name+"/sit_right/Background/Label")
+                    if(node){
+                        var lable = node.getComponent(cc.Label)
+                        lable.string = table.player_right.name
+                    }
+                }else{
+                    //没得人显示加入
+                    var node = cc.find("Canvas/rooms/view/content/"+table_name+"/sit_right/Background/Label")
+                    if(node){
+                        var lable = node.getComponent(cc.Label)
+                        lable.string = '加入'
+                    }
+                }
+            }
         }
 
     },
@@ -54,19 +122,74 @@ cc.Class({
         this.global = require('./global');
         this.netControl = require('./util/NetControl');
         //绑定消息事件
-        this.msssageFire=onfire.on("onmessage",this.onMessage.bind(this));
-
-        this.netControl.send('{"method":"tables"}')
-        
+        this.netControl.bind_event('message',this.onMessage)
 
         this.scheduleOnce(function(){
             this.init_table();
+            this.netControl.send('{"method":"tables"}');
             this.init_table_position();
         },0);
+
+        //绑定点击事件
         this.out_bt.node.on('click',this.on_out_bt,this);
+
+        this.list_bt.node.on('click',this.onPage,this);
+        this.list_page.on(cc.Node.EventType.TOUCH_START, this.onPage, this);
+        this.list_page.mv = 'stop_up';
+
+        this.notice_bt.node.on('click',this.onPage,this);
+        this.notice_page.on(cc.Node.EventType.TOUCH_START, this.onPage, this);
+        this.notice_page.mv = 'stop_up';
+
+        this.create_bt.node.on('click',this.onPage,this);
+        this.create_page.on(cc.Node.EventType.TOUCH_START, this.onPage, this);
+        this.create_page.mv = 'stop_up';
+
+        this.single_bt.node.on('click',this.onPage,this);
+        this.single_page.on(cc.Node.EventType.TOUCH_START, this.onPage, this);
+        this.single_page.mv = 'stop_up';
+
+        this.double_bt.node.on('click',this.onPage,this);
+        this.double_page.on(cc.Node.EventType.TOUCH_START, this.onPage, this);
+        this.double_page.mv = 'stop_up';
+
+        this.set_bt.node.on('click',this.onPage,this);
+        this.set_page.on(cc.Node.EventType.TOUCH_START, this.onPage, this);
+        this.set_page.mv = 'stop_up';
 
         //预加载场景
         cc.director.preloadScene('hall');
+    },
+    onPage(event){
+
+        var node = event.target;
+
+        if(node == this.list_bt.node){
+            node = this.list_page;
+        }else if(node == this.notice_bt.node){
+            node = this.notice_page;
+        }else if(node == this.create_bt.node){
+            node = this.create_page;
+        }else if(node == this.single_bt.node){
+            node = this.single_page;
+        }else if(node == this.double_bt.node){
+            node = this.double_page;
+        }else if(node == this.set_bt.node){
+            node = this.set_page;
+        }
+
+        if(node.mv == 'stop_up'){
+            node.mv = 'mv_down';
+        }else if(node.mv == 'mv_down'){
+            node.mv = 'mv_up';
+        }else if(node.mv == 'mv_up'){
+            node.mv = 'mv_down';
+        }else if(node.mv == 'stop_down'){
+            node.mv = 'mv_up';
+        }else{
+            node.mv = 'mv_down';
+        }
+        
     },
     init_table_position(){
 
@@ -125,5 +248,88 @@ cc.Class({
 
     },
 
-    // update (dt) {},
+    update (dt) {
+        var speed = 20;
+        // this.list_page.setPosition(this.list_page.x, this.list_page.y-speed)
+
+        //移动
+        if(this.list_page.mv == 'mv_up'){
+            this.list_page.y += speed;
+        }else if (this.list_page.mv == 'mv_down'){
+            this.list_page.y -= speed;
+        }
+        //移动后的位置判断
+        if(this.list_page.y < 0 ){
+            this.list_page.mv = 'stop_down';
+        }else if(this.list_page.y > 755){            
+            this.list_page.mv = 'stop_up';
+        }
+
+        //移动
+        if(this.notice_page.mv == 'mv_up'){
+            this.notice_page.y += speed;
+        }else if (this.notice_page.mv == 'mv_down'){
+            this.notice_page.y -= speed;
+        }
+        //移动后的位置判断
+        if(this.notice_page.y < 0 ){
+            this.notice_page.mv = 'stop_down';
+        }else if(this.notice_page.y > 755){            
+            this.notice_page.mv = 'stop_up';
+        }
+
+        //移动
+        if(this.create_page.mv == 'mv_up'){
+            this.create_page.y += speed;
+        }else if (this.create_page.mv == 'mv_down'){
+            this.create_page.y -= speed;
+        }
+        //移动后的位置判断
+        if(this.create_page.y < 0 ){
+            this.create_page.mv = 'stop_down';
+        }else if(this.create_page.y > 755){            
+            this.create_page.mv = 'stop_up';
+        }
+
+        //移动
+        if(this.single_page.mv == 'mv_up'){
+            this.single_page.y += speed;
+        }else if (this.single_page.mv == 'mv_down'){
+            this.single_page.y -= speed;
+        }
+        //移动后的位置判断
+        if(this.single_page.y < 0 ){
+            this.single_page.mv = 'stop_down';
+        }else if(this.single_page.y > 755){            
+            this.single_page.mv = 'stop_up';
+        }
+
+        //移动
+        if(this.double_page.mv == 'mv_up'){
+            this.double_page.y += speed;
+        }else if (this.double_page.mv == 'mv_down'){
+            this.double_page.y -= speed;
+        }
+        //移动后的位置判断
+        if(this.double_page.y < 0 ){
+            this.double_page.mv = 'stop_down';
+        }else if(this.double_page.y > 755){            
+            this.double_page.mv = 'stop_up';
+        }
+
+        //移动
+        if(this.set_page.mv == 'mv_up'){
+            this.set_page.y += speed;
+        }else if (this.set_page.mv == 'mv_down'){
+            this.set_page.y -= speed;
+        }
+        //移动后的位置判断
+        if(this.set_page.y < 0 ){
+            this.set_page.mv = 'stop_down';
+        }else if(this.set_page.y > 755){            
+            this.set_page.mv = 'stop_up';
+        }
+
+  
+    },
 });

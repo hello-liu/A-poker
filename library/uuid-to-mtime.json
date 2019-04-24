@@ -30,7 +30,7 @@
     "relativePath": "Scene"
   },
   "bdfca12b-b32c-4d38-bc5c-b29f2841a6a5": {
-    "asset": 1556025040244,
+    "asset": 1556084472632,
     "meta": 1555839826810,
     "relativePath": "scripts"
   },
@@ -60,8 +60,8 @@
     "relativePath": "prefab/table_2v2.prefab"
   },
   "004a31c3-51da-4e1b-90f0-30ddfc37e21c": {
-    "asset": 1555996964517,
-    "meta": 1555996964525,
+    "asset": 1556108868994,
+    "meta": 1556108869020,
     "relativePath": "Scene/hall.fire"
   },
   "5be8bbfe-939a-4cd7-a119-83bcada7f3fd": {
@@ -70,8 +70,8 @@
     "relativePath": "Scene/index.fire"
   },
   "0a3cab81-08f4-42ab-931a-44f05f1fc5df": {
-    "asset": 1556030848128,
-    "meta": 1556030848143,
+    "asset": 1556108928192,
+    "meta": 1556108928199,
     "relativePath": "Scene/room.fire"
   },
   "3f3b0de2-b31f-487d-9d89-1674c2950355": {
@@ -324,20 +324,10 @@
     "meta": 1555993544607,
     "relativePath": "scripts/util/util.js"
   },
-  "178be9f5-52cf-4a31-939a-e546e654be77": {
-    "asset": 1556027441961,
-    "meta": 1556027446701,
-    "relativePath": "scripts/util/NetControl.js"
-  },
   "5ecdd695-2913-4b43-98c5-9f48e31e3fe3": {
     "asset": 1556027718991,
     "meta": 1556027723214,
     "relativePath": "scripts/global.js"
-  },
-  "145e2b72-d36c-4eaf-b218-6685222bdb96": {
-    "asset": 1556030080646,
-    "meta": 1556030187169,
-    "relativePath": "scripts/Index.js"
   },
   "534ea3e2-4e88-40da-9cac-0dc9b764520d": {
     "asset": 1556031200285,
@@ -614,19 +604,29 @@
     "meta": 1556031201310,
     "relativePath": "resources/pokers/502.png"
   },
-  "797ebe20-dac9-4ac5-aebf-9276de02db5f": {
-    "asset": 1556081178684,
-    "meta": 1556081180612,
-    "relativePath": "scripts/room.js"
+  "145e2b72-d36c-4eaf-b218-6685222bdb96": {
+    "asset": 1556092555131,
+    "meta": 1556092584001,
+    "relativePath": "scripts/Index.js"
+  },
+  "178be9f5-52cf-4a31-939a-e546e654be77": {
+    "asset": 1556092824158,
+    "meta": 1556092827496,
+    "relativePath": "scripts/util/NetControl.js"
   },
   "d7c0c1fe-4a5f-43dd-a6e2-f49c1f7579a8": {
-    "asset": 1556081152227,
-    "meta": 1556081180613,
+    "asset": 1556095408331,
+    "meta": 1556095454859,
     "relativePath": "scripts/table_1v1.js"
   },
   "7e8861bf-0ab6-4249-90f1-2a2e474d2361": {
-    "asset": 1556081335963,
-    "meta": 1556081342702,
+    "asset": 1556108488556,
+    "meta": 1556108490788,
     "relativePath": "scripts/hall.js"
+  },
+  "797ebe20-dac9-4ac5-aebf-9276de02db5f": {
+    "asset": 1556109091981,
+    "meta": 1556109135213,
+    "relativePath": "scripts/room.js"
   }
 }

@@ -72,7 +72,7 @@ cc.Class({
         console.log('room setPokers');
 
         //设置当前玩家手中的牌
-        var pokers = [202,203,204,205,207,208,209,210,211,111,212,313,414,305,111,212];
+        var pokers = [414,413,412,411,410,409,408,407,406,405,404,403,402];
         for(var p of pokers){
             var pokersNode = cc.instantiate(this.prefab_poker);
             var img = pokersNode.getChildByName('img');
@@ -84,14 +84,14 @@ cc.Class({
         }
 
         //设置每个玩家出的牌
-        var up_poker = 114;
-        var down_poker = 214;
-        var left_poker = 314;
-        var right_poker = 414;
-        this.poker_up.spriteFrame = this.pokers[up_poker];
-        this.poker_down.spriteFrame = this.pokers[down_poker];
-        this.poker_left.spriteFrame = this.pokers[left_poker];
-        this.poker_right.spriteFrame = this.pokers[right_poker];
+        // var up_poker = 114;
+        // var down_poker = 214;
+        // var left_poker = 314;
+        // var right_poker = 414;
+        // this.poker_up.spriteFrame = this.pokers[up_poker];
+        // this.poker_down.spriteFrame = this.pokers[down_poker];
+        // this.poker_left.spriteFrame = this.pokers[left_poker];
+        // this.poker_right.spriteFrame = this.pokers[right_poker];
 
     },
     //牌事件
@@ -130,6 +130,10 @@ cc.Class({
 
     //退出按钮返回到大厅
     on_out_bt(){
+        var netControl = require('./util/NetControl');
+        var global = require('./global');
+
+        netControl.send('{"method":"out","roomId":"'+global.table+'","sit":"'+global.sit+'","playerId":"'+global.name+'"}');
         cc.director.loadScene('hall');
     },
 

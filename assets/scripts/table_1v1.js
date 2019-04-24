@@ -46,6 +46,8 @@ cc.Class({
         console.log('on_up_bt');
         var table_name = this.node.name;
         var player_name = this.global.name;
+        this.global.table = table_name;
+        this.global.sit = 'up';
 
         this.netControl.send('{"method":"in","roomId":"'+table_name+'","sit":"up","type":"1v1","playerId":"'+player_name+'","playerName":"'+player_name+'"}' );
         cc.director.loadScene('room');
@@ -55,6 +57,8 @@ cc.Class({
         console.log('on_down_bt');
         var table_name = this.node.name;
         var player_name = this.global.name;
+        this.global.table = table_name;
+        this.global.sit = 'down';
 
         this.netControl.send('{"method":"in","roomId":"'+table_name+'","sit":"down","type":"1v1","playerId":"'+player_name+'","playerName":"'+player_name+'"}' );
         cc.director.loadScene('room');
