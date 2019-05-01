@@ -50,7 +50,6 @@ cc.Class({
         this.global.sit = 'up';
 
         this.netControl.send('{"method":"in","roomId":"'+table_name+'","sit":"up","type":"1v1","playerId":"'+player_name+'","playerName":"'+player_name+'"}' );
-        cc.director.loadScene('room');
     },
     
     on_down_bt(){
@@ -61,7 +60,7 @@ cc.Class({
         this.global.sit = 'down';
 
         this.netControl.send('{"method":"in","roomId":"'+table_name+'","sit":"down","type":"1v1","playerId":"'+player_name+'","playerName":"'+player_name+'"}' );
-        cc.director.loadScene('room');
+        // cc.director.loadScene('room');
     },
 
     start () {

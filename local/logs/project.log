@@ -1,73 +1,97 @@
-2019-04-24T10:08:04.931Z - normal: Load ~/.CocosCreator/settings.json
-2019-04-24T10:08:04.993Z - normal: Initializing Asset Database
-2019-04-24T10:08:04.996Z - normal: checking language setting...
-2019-04-24T10:08:04.996Z - normal: Language: zh
-2019-04-24T10:08:05.735Z - success: preview server running at http://localhost:7456
-2019-04-24T10:08:05.789Z - success: protocol editor-framework registered
-2019-04-24T10:08:05.789Z - success: protocol app registered
-2019-04-24T10:08:05.789Z - success: protocol theme registered
-2019-04-24T10:08:05.789Z - success: protocol packages registered
-2019-04-24T10:08:05.789Z - success: protocol uuid registerred
-2019-04-24T10:08:05.789Z - success: protocol db registerred
-2019-04-24T10:08:05.789Z - success: protocol thumbnail registerred
-2019-04-24T10:08:05.789Z - success: protocol unpack registerred
-2019-04-24T10:08:05.790Z - success: protocol disable-commonjs registerred
-2019-04-24T10:08:06.035Z - normal: connected!
-2019-04-24T10:08:06.036Z - normal: Check project /Users/macbook/NewProject
-2019-04-24T10:08:06.037Z - normal: Initializing project /Users/macbook/NewProject
-2019-04-24T10:08:06.441Z - normal: Initializing Cocos2d
-2019-04-24T10:08:07.378Z - normal: Initializing engine extends
-2019-04-24T10:08:07.418Z - success: asset-db-debugger loaded
-2019-04-24T10:08:07.421Z - success: baidu-adapter loaded
-2019-04-24T10:08:07.424Z - success: color-picker loaded
-2019-04-24T10:08:07.541Z - success: fb-audience-network loaded
-2019-04-24T10:08:07.621Z - success: fb-live-stream loaded
-2019-04-24T10:08:07.625Z - success: google-play-instant loaded
-2019-04-24T10:08:07.631Z - success: huawei-runtime loaded
-2019-04-24T10:08:07.632Z - success: jsb-adapter loaded
-2019-04-24T10:08:07.639Z - success: oppo-runtime loaded
-2019-04-24T10:08:07.658Z - success: package-manager loaded
-2019-04-24T10:08:07.815Z - success: qqplay-adapter loaded
-2019-04-24T10:08:07.817Z - success: runtime-dev-tools loaded
-2019-04-24T10:08:07.834Z - success: sdkbox loaded
-2019-04-24T10:08:07.850Z - success: tester loaded
-2019-04-24T10:08:07.873Z - success: ui-grid loaded
-2019-04-24T10:08:07.884Z - success: ui-kit-preview-extra loaded
-2019-04-24T10:08:07.897Z - success: ui-kit-preview loaded
-2019-04-24T10:08:07.912Z - success: ui-kit loaded
-2019-04-24T10:08:07.932Z - success: ui-tree loaded
-2019-04-24T10:08:07.938Z - success: vivo-runtime loaded
-2019-04-24T10:08:07.939Z - success: weapp-adapter loaded
-2019-04-24T10:08:08.018Z - success: assets loaded
-2019-04-24T10:08:08.061Z - success: builder loaded
-2019-04-24T10:08:08.425Z - success: cocos-services loaded
-2019-04-24T10:08:08.443Z - success: console loaded
-2019-04-24T10:08:08.499Z - success: fb-instant-games loaded
-2019-04-24T10:08:08.504Z - success: google-instant-games loaded
-2019-04-24T10:08:08.523Z - success: hierarchy loaded
-2019-04-24T10:08:08.544Z - success: inspector loaded
-2019-04-24T10:08:08.546Z - success: keystore loaded
-2019-04-24T10:08:08.562Z - success: node-library loaded
-2019-04-24T10:08:08.564Z - success: package-asset loaded
-2019-04-24T10:08:08.566Z - success: preferences loaded
-2019-04-24T10:08:08.580Z - success: project-exporter loaded
-2019-04-24T10:08:08.598Z - success: project-importer loaded
-2019-04-24T10:08:08.612Z - success: project-settings loaded
-2019-04-24T10:08:08.632Z - success: scene loaded
-2019-04-24T10:08:08.635Z - success: simulator-debugger loaded
-2019-04-24T10:08:08.637Z - success: sprite-editor loaded
-2019-04-24T10:08:08.651Z - success: store loaded
-2019-04-24T10:08:08.666Z - success: timeline loaded
-2019-04-24T10:08:10.249Z - normal: Loading packages
-2019-04-24T10:08:10.255Z - normal: Watching packages
-2019-04-24T10:08:10.392Z - normal: Run Application
-2019-04-24T10:08:10.986Z - info: Cocos Services load base data!
-2019-04-24T10:32:50.225Z - error: scene 没有保存，请先保存相关信息再进行构建。
-    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:7273)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3753)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2019-04-24T10:34:05.778Z - normal: Start building with options : {
+2019-05-01T10:30:31.418Z - normal: Load ~/.CocosCreator/settings.json
+2019-05-01T10:30:31.483Z - normal: Initializing Asset Database
+2019-05-01T10:30:31.486Z - normal: checking language setting...
+2019-05-01T10:30:31.486Z - normal: Language: zh
+2019-05-01T10:30:32.330Z - success: preview server running at http://localhost:7456
+2019-05-01T10:30:32.372Z - success: protocol editor-framework registered
+2019-05-01T10:30:32.373Z - success: protocol app registered
+2019-05-01T10:30:32.373Z - success: protocol theme registered
+2019-05-01T10:30:32.373Z - success: protocol packages registered
+2019-05-01T10:30:32.373Z - success: protocol uuid registerred
+2019-05-01T10:30:32.373Z - success: protocol db registerred
+2019-05-01T10:30:32.373Z - success: protocol thumbnail registerred
+2019-05-01T10:30:32.373Z - success: protocol unpack registerred
+2019-05-01T10:30:32.374Z - success: protocol disable-commonjs registerred
+2019-05-01T10:30:32.598Z - normal: connected!
+2019-05-01T10:30:32.599Z - normal: Check project /Users/macbook/NewProject
+2019-05-01T10:30:32.601Z - normal: Initializing project /Users/macbook/NewProject
+2019-05-01T10:30:33.021Z - normal: Initializing Cocos2d
+2019-05-01T10:30:33.919Z - normal: Initializing engine extends
+2019-05-01T10:30:33.987Z - success: asset-db-debugger loaded
+2019-05-01T10:30:33.988Z - success: baidu-adapter loaded
+2019-05-01T10:30:33.989Z - success: color-picker loaded
+2019-05-01T10:30:34.093Z - success: fb-audience-network loaded
+2019-05-01T10:30:34.155Z - success: fb-live-stream loaded
+2019-05-01T10:30:34.159Z - success: google-play-instant loaded
+2019-05-01T10:30:34.165Z - success: huawei-runtime loaded
+2019-05-01T10:30:34.167Z - success: jsb-adapter loaded
+2019-05-01T10:30:34.172Z - success: oppo-runtime loaded
+2019-05-01T10:30:34.184Z - success: package-manager loaded
+2019-05-01T10:30:34.341Z - success: qqplay-adapter loaded
+2019-05-01T10:30:34.343Z - success: runtime-dev-tools loaded
+2019-05-01T10:30:34.357Z - success: sdkbox loaded
+2019-05-01T10:30:34.371Z - success: tester loaded
+2019-05-01T10:30:34.384Z - success: ui-grid loaded
+2019-05-01T10:30:34.395Z - success: ui-kit-preview-extra loaded
+2019-05-01T10:30:34.406Z - success: ui-kit-preview loaded
+2019-05-01T10:30:34.417Z - success: ui-kit loaded
+2019-05-01T10:30:34.427Z - success: ui-tree loaded
+2019-05-01T10:30:34.433Z - success: vivo-runtime loaded
+2019-05-01T10:30:34.434Z - success: weapp-adapter loaded
+2019-05-01T10:30:34.489Z - success: assets loaded
+2019-05-01T10:30:34.501Z - success: builder loaded
+2019-05-01T10:30:34.816Z - success: cocos-services loaded
+2019-05-01T10:30:34.829Z - success: console loaded
+2019-05-01T10:30:34.864Z - success: fb-instant-games loaded
+2019-05-01T10:30:34.867Z - success: google-instant-games loaded
+2019-05-01T10:30:34.881Z - success: hierarchy loaded
+2019-05-01T10:30:34.893Z - success: inspector loaded
+2019-05-01T10:30:34.894Z - success: keystore loaded
+2019-05-01T10:30:34.907Z - success: node-library loaded
+2019-05-01T10:30:34.909Z - success: package-asset loaded
+2019-05-01T10:30:34.911Z - success: preferences loaded
+2019-05-01T10:30:34.922Z - success: project-exporter loaded
+2019-05-01T10:30:34.935Z - success: project-importer loaded
+2019-05-01T10:30:34.948Z - success: project-settings loaded
+2019-05-01T10:30:34.960Z - success: scene loaded
+2019-05-01T10:30:34.962Z - success: simulator-debugger loaded
+2019-05-01T10:30:34.963Z - success: sprite-editor loaded
+2019-05-01T10:30:34.976Z - success: store loaded
+2019-05-01T10:30:34.990Z - success: timeline loaded
+2019-05-01T10:30:36.205Z - normal: Loading packages
+2019-05-01T10:30:36.210Z - normal: Watching packages
+2019-05-01T10:30:36.311Z - normal: Run Application
+2019-05-01T10:30:36.952Z - info: Cocos Services load base data!
+2019-05-01T13:13:26.011Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:58383
+2019-05-01T13:13:37.579Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:58451
+2019-05-01T13:13:47.435Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:58488
+2019-05-01T13:13:57.549Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:58563
+2019-05-01T13:41:22.905Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:75577
+2019-05-01T13:42:00.096Z - info: 只有预制节点 "poker" 及其子节点会被保存。
+2019-05-01T13:42:59.140Z - info: 只有预制节点 "poker" 及其子节点会被保存。
+2019-05-01T13:43:15.323Z - warn: object already destroyed
+2019-05-01T13:43:15.324Z - warn: object already destroyed
+2019-05-01T13:43:16.454Z - warn: object already destroyed
+2019-05-01T13:43:16.455Z - warn: object already destroyed
+2019-05-01T13:43:17.311Z - warn: object already destroyed
+2019-05-01T13:43:17.313Z - warn: object already destroyed
+2019-05-01T13:43:18.904Z - warn: object already destroyed
+2019-05-01T13:43:18.905Z - warn: object already destroyed
+2019-05-01T13:44:19.097Z - info: 只有预制节点 "poker" 及其子节点会被保存。
+2019-05-01T13:44:39.891Z - warn: object already destroyed
+2019-05-01T13:44:39.893Z - warn: object already destroyed
+2019-05-01T13:44:44.123Z - warn: object already destroyed
+2019-05-01T13:44:44.123Z - warn: object already destroyed
+2019-05-01T13:44:46.589Z - warn: object already destroyed
+2019-05-01T13:44:46.590Z - warn: object already destroyed
+2019-05-01T13:44:49.863Z - warn: object already destroyed
+2019-05-01T13:44:49.863Z - warn: object already destroyed
+2019-05-01T13:44:52.044Z - warn: object already destroyed
+2019-05-01T13:44:52.044Z - warn: object already destroyed
+2019-05-01T13:44:59.931Z - warn: object already destroyed
+2019-05-01T13:44:59.931Z - warn: object already destroyed
+2019-05-01T14:23:49.334Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:97279
+2019-05-01T14:29:22.305Z - normal: Start building with options : {
   "actualPlatform": "wechatgame",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -139,31 +163,21 @@
   "projectName": "tt",
   "debugBuildWorker": false
 }
-2019-04-24T10:34:05.783Z - normal: Building /Users/macbook/NewProject
-2019-04-24T10:34:05.783Z - normal: Destination /Users/macbook/NewProject/build/wechatgame
-2019-04-24T10:34:05.940Z - normal: Delete /Users/macbook/NewProject/build/wechatgame/subpackages/**/*,/Users/macbook/NewProject/build/wechatgame/**/*
-2019-04-24T10:34:08.561Z - normal: Start building assets
-2019-04-24T10:34:08.561Z - normal: Start spawn build-worker
-2019-04-24T10:34:09.309Z - normal: Finish spawn build-worker
-2019-04-24T10:34:09.309Z - normal: Start init build-worker
-2019-04-24T10:34:12.492Z - normal: Finish init build-worker
-2019-04-24T10:34:12.492Z - normal: Start build-assets in worker
-2019-04-24T10:34:13.280Z - normal: Finish build-assets in worker
-2019-04-24T10:34:13.284Z - normal: Finish building assets
-2019-04-24T10:34:13.307Z - normal: Start building plugin scripts
-2019-04-24T10:34:13.348Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-04-24T10:34:14.703Z - normal: Built to "/Users/macbook/NewProject/build/wechatgame" successfully
-2019-04-24T10:39:35.173Z - error: unknown color: ##003399
-    at window.onerror (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/lib/windows/static/script/launch.js:340:24)
-    at Object.e.fire (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:1797)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/input.js:1:2822)
-    at HTMLInputElement.n.addEventListener.t (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:1135)
-2019-04-24T10:41:37.073Z - error: scene 没有保存，请先保存相关信息再进行构建。
-    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:7273)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3753)
-    at emitMany (events.js:127:13)
-    at EventEmitter.emit (events.js:204:7)
-2019-04-24T10:41:43.761Z - normal: Start building with options : {
+2019-05-01T14:29:22.309Z - normal: Building /Users/macbook/NewProject
+2019-05-01T14:29:22.309Z - normal: Destination /Users/macbook/NewProject/build/wechatgame
+2019-05-01T14:29:22.471Z - normal: Delete /Users/macbook/NewProject/build/wechatgame/subpackages/**/*,/Users/macbook/NewProject/build/wechatgame/**/*
+2019-05-01T14:29:25.569Z - normal: Start building assets
+2019-05-01T14:29:25.569Z - normal: Start spawn build-worker
+2019-05-01T14:29:26.405Z - normal: Finish spawn build-worker
+2019-05-01T14:29:26.405Z - normal: Start init build-worker
+2019-05-01T14:29:30.017Z - normal: Finish init build-worker
+2019-05-01T14:29:30.017Z - normal: Start build-assets in worker
+2019-05-01T14:29:30.841Z - normal: Finish build-assets in worker
+2019-05-01T14:29:30.845Z - normal: Finish building assets
+2019-05-01T14:29:30.869Z - normal: Start building plugin scripts
+2019-05-01T14:29:30.915Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-01T14:29:32.339Z - normal: Built to "/Users/macbook/NewProject/build/wechatgame" successfully
+2019-05-01T14:34:01.939Z - normal: Start building with options : {
   "actualPlatform": "wechatgame",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -235,197 +249,17 @@
   "projectName": "tt",
   "debugBuildWorker": false
 }
-2019-04-24T10:41:43.763Z - normal: Building /Users/macbook/NewProject
-2019-04-24T10:41:43.763Z - normal: Destination /Users/macbook/NewProject/build/wechatgame
-2019-04-24T10:41:43.765Z - normal: Delete /Users/macbook/NewProject/build/wechatgame/subpackages/**/*,/Users/macbook/NewProject/build/wechatgame/**/*
-2019-04-24T10:41:46.133Z - normal: Start building assets
-2019-04-24T10:41:46.133Z - normal: Start spawn build-worker
-2019-04-24T10:41:46.923Z - normal: Finish spawn build-worker
-2019-04-24T10:41:46.923Z - normal: Start init build-worker
-2019-04-24T10:41:50.133Z - normal: Finish init build-worker
-2019-04-24T10:41:50.134Z - normal: Start build-assets in worker
-2019-04-24T10:41:50.824Z - normal: Finish build-assets in worker
-2019-04-24T10:41:50.827Z - normal: Finish building assets
-2019-04-24T10:41:50.847Z - normal: Start building plugin scripts
-2019-04-24T10:41:50.888Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-04-24T10:41:52.172Z - normal: Built to "/Users/macbook/NewProject/build/wechatgame" successfully
-2019-04-24T11:41:18.421Z - success: VS Code extension installed to /Users/macbook/.vscode/extensions
-2019-04-24T11:41:38.819Z - success: API data generated and copied to /Users/macbook/NewProject/creator.d.ts
-2019-04-24T11:43:46.772Z - success: API data generated and copied to /Users/macbook/NewProject/creator.d.ts
-2019-04-24T11:43:50.115Z - success: VS Code extension installed to /Users/macbook/.vscode/extensions
-2019-04-24T11:49:43.751Z - success: Chrome debug setting has been updated to .vscode/launch.json, please install Debugger for Chrome VS Code extension to debug your project.
-2019-04-24T12:07:26.314Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "baidugame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "testappid",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "buildPath": "/Users/macbook/NewProject/build",
-  "debug": false,
-  "dest": "/Users/macbook/NewProject/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": false,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.MatchvsExamples",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "scenes": [
-    "5be8bbfe-939a-4cd7-a119-83bcada7f3fd",
-    "004a31c3-51da-4e1b-90f0-30ddfc37e21c",
-    "0a3cab81-08f4-42ab-931a-44f05f1fc5df"
-  ],
-  "sourceMaps": false,
-  "startScene": "5be8bbfe-939a-4cd7-a119-83bcada7f3fd",
-  "template": "link",
-  "title": "tt",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "",
-    "isSubdomain": false,
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "7664dd9e-e345-4f",
-  "zipCompressJs": true,
-  "project": "/Users/macbook/NewProject",
-  "projectName": "tt",
-  "debugBuildWorker": false
-}
-2019-04-24T12:07:26.318Z - normal: Building /Users/macbook/NewProject
-2019-04-24T12:07:26.318Z - normal: Destination /Users/macbook/NewProject/build/wechatgame
-2019-04-24T12:07:26.319Z - normal: Delete /Users/macbook/NewProject/build/wechatgame/subpackages/**/*,/Users/macbook/NewProject/build/wechatgame/**/*
-2019-04-24T12:07:28.544Z - normal: Start building assets
-2019-04-24T12:07:28.545Z - normal: Start spawn build-worker
-2019-04-24T12:07:29.197Z - normal: Finish spawn build-worker
-2019-04-24T12:07:29.198Z - normal: Start init build-worker
-2019-04-24T12:07:32.235Z - normal: Finish init build-worker
-2019-04-24T12:07:32.235Z - normal: Start build-assets in worker
-2019-04-24T12:07:32.877Z - normal: Finish build-assets in worker
-2019-04-24T12:07:32.880Z - normal: Finish building assets
-2019-04-24T12:07:32.895Z - normal: Start building plugin scripts
-2019-04-24T12:07:32.929Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-04-24T12:07:34.020Z - normal: Built to "/Users/macbook/NewProject/build/wechatgame" successfully
-2019-04-24T12:14:42.474Z - normal: Start building with options : {
-  "actualPlatform": "wechatgame",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "baidugame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "testappid",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "buildPath": "/Users/macbook/NewProject/build",
-  "debug": false,
-  "dest": "/Users/macbook/NewProject/build/wechatgame",
-  "embedWebDebugger": false,
-  "encryptJs": false,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.MatchvsExamples",
-  "platform": "wechatgame",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "scenes": [
-    "5be8bbfe-939a-4cd7-a119-83bcada7f3fd",
-    "004a31c3-51da-4e1b-90f0-30ddfc37e21c",
-    "0a3cab81-08f4-42ab-931a-44f05f1fc5df"
-  ],
-  "sourceMaps": false,
-  "startScene": "5be8bbfe-939a-4cd7-a119-83bcada7f3fd",
-  "template": "link",
-  "title": "tt",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "",
-    "isSubdomain": false,
-    "orientation": "landscape",
-    "subContext": ""
-  },
-  "xxteaKey": "7664dd9e-e345-4f",
-  "zipCompressJs": true,
-  "project": "/Users/macbook/NewProject",
-  "projectName": "tt",
-  "debugBuildWorker": false
-}
-2019-04-24T12:14:42.478Z - normal: Building /Users/macbook/NewProject
-2019-04-24T12:14:42.478Z - normal: Destination /Users/macbook/NewProject/build/wechatgame
-2019-04-24T12:14:42.479Z - normal: Delete /Users/macbook/NewProject/build/wechatgame/subpackages/**/*,/Users/macbook/NewProject/build/wechatgame/**/*
-2019-04-24T12:14:44.661Z - normal: Start building assets
-2019-04-24T12:14:44.661Z - normal: Start spawn build-worker
-2019-04-24T12:14:45.309Z - normal: Finish spawn build-worker
-2019-04-24T12:14:45.309Z - normal: Start init build-worker
-2019-04-24T12:14:48.335Z - normal: Finish init build-worker
-2019-04-24T12:14:48.335Z - normal: Start build-assets in worker
-2019-04-24T12:14:49.007Z - normal: Finish build-assets in worker
-2019-04-24T12:14:49.009Z - normal: Finish building assets
-2019-04-24T12:14:49.029Z - normal: Start building plugin scripts
-2019-04-24T12:14:49.067Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2019-04-24T12:14:50.327Z - normal: Built to "/Users/macbook/NewProject/build/wechatgame" successfully
-2019-04-24T12:28:07.577Z - warn: object already destroyed
-2019-04-24T12:28:07.579Z - warn: object already destroyed
-2019-04-24T15:22:58.965Z - info: shutdown preview server
+2019-05-01T14:34:01.945Z - normal: Building /Users/macbook/NewProject
+2019-05-01T14:34:01.945Z - normal: Destination /Users/macbook/NewProject/build/wechatgame
+2019-05-01T14:34:01.946Z - normal: Delete /Users/macbook/NewProject/build/wechatgame/subpackages/**/*,/Users/macbook/NewProject/build/wechatgame/**/*
+2019-05-01T14:34:05.895Z - normal: Start building assets
+2019-05-01T14:34:05.895Z - normal: Start spawn build-worker
+2019-05-01T14:34:06.589Z - normal: Finish spawn build-worker
+2019-05-01T14:34:06.590Z - normal: Start init build-worker
+2019-05-01T14:34:10.023Z - normal: Finish init build-worker
+2019-05-01T14:34:10.023Z - normal: Start build-assets in worker
+2019-05-01T14:34:10.754Z - normal: Finish build-assets in worker
+2019-05-01T14:34:10.758Z - normal: Finish building assets
+2019-05-01T14:34:10.774Z - normal: Start building plugin scripts
+2019-05-01T14:34:10.814Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2019-05-01T14:34:12.248Z - normal: Built to "/Users/macbook/NewProject/build/wechatgame" successfully

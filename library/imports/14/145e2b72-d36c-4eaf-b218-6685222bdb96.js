@@ -46,6 +46,7 @@ cc.Class({
                     netControl.connect();
                     netControl.bind_event('open', this.onOpen);
                     global.name = name;
+                    global.id = name;
                     //绑定事件
                     this.login_tip_lb.string = '网络连接中。。。';
                 } else {

@@ -42,13 +42,13 @@ var NetControl={
     },
 
     //绑定消息方法
-    bind_event(e, f){
+    bind_event(e, f, that){
         if(e == 'open'){
             this._sock.onopen = f;
         }else if(e == 'close'){
             this._sock.onclose = f;
         }else if(e == 'message'){
-            this._sock.onmessage = f;
+            this._sock.onmessage = f.bind(that);
         }
     },
 

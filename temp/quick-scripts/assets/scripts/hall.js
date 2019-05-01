@@ -56,6 +56,11 @@ cc.Class(_defineProperty({
         var data = JSON.parse(obj.data);
         console.log(data);
 
+        if (data && data.table) {
+            // 收到桌的消息说明加入到桌子中
+            cc.director.loadScene('room');
+            return;
+        }
         if (data && data.tables) {
             //返回了 tables消息，设置桌子的信息
             var _iteratorNormalCompletion = true;
@@ -142,13 +147,15 @@ cc.Class(_defineProperty({
                     }
                 }
             }
+
+            return;
         }
     },
     onLoad: function onLoad() {
         this.global = require('./global');
         this.netControl = require('./util/NetControl');
         //绑定消息事件
-        this.netControl.bind_event('message', this.onMessage);
+        this.netControl.bind_event('message', this.onMessage, this);
 
         this.scheduleOnce(function () {
             this.init_table();
